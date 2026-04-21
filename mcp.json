@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "zlibrary2kindle": {
+      "command": "python",
+      "args": ["-m", "src.server"],
+      "env": {
+        "ZLIBRARY_EMAIL": "your@email.com",
+        "ZLIBRARY_PASSWORD": "your-password",
+        "KINDLE_EMAIL": "your-name@kindle.com",
+        "SENDER_EMAIL": "your@email.com",
+        "SENDER_PASSWORD": "xxxx xxxx xxxx xxxx"
+      }
+    }
+  }
+}

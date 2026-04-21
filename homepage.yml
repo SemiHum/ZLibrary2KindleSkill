@@ -1,0 +1,680 @@
+- generic [ref=e1]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - link "Z-Library Home" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - text: Z-Library Home  
+      - link "我的图书馆" [ref=e7] [cursor=pointer]:
+        - /url: /profile#tags
+        - text: 我的图书馆  
+    - generic [ref=e272] [cursor=pointer]:
+      - generic [ref=e273]: 
+      - generic [ref=e274]: 中文
+    - link "捐款" [ref=e41] [cursor=pointer]:
+      - /url: /how-to-donate
+    - generic [ref=e42]:
+      - generic [ref=e44] [cursor=pointer]: 
+      - generic:
+        - generic:
+          - generic:
+            - textbox "按书名、作者、ISBN、DOI、出版社、MD5等搜索…" [ref=e276]
+            - button "" [ref=e277] [cursor=pointer]:
+              - generic [ref=e278]: 
+            - button "" [ref=e279] [cursor=pointer]:
+              - generic [ref=e280]: 
+    - generic [ref=e48] [cursor=pointer]:
+      - generic [ref=e50]: 
+      - generic [ref=e51]: 
+      - generic [ref=e52]: 
+    - link "登录" [ref=e54] [cursor=pointer]:
+      - /url: /login?redirectUrl=https%253A%252F%252Fzh.zlib.li%252F
+    - generic [ref=e55]:
+      - generic [ref=e57] [cursor=pointer]: 
+      - text:                         
+  - generic [ref=e60]:
+    - generic [ref=e61]:
+      - generic [ref=e62]:
+        - link "Z-Library" [ref=e64] [cursor=pointer]:
+          - /url: /
+          - img "Z-Library" [ref=e65]
+        - generic [ref=e66]: Oh my god It's 2026! Wish I had a friend with me. Every year I'm all alone. I have no reason to leave my home~
+      - generic [ref=e67]:
+        - text: Are you familiar with a high-risk merchant or do you process payments?
+        - link "Yes, I am." [ref=e68] [cursor=pointer]:
+          - /url: javascript://
+        - link "×" [ref=e69] [cursor=pointer]:
+          - /url: javascript://
+      - generic [ref=e70]:
+        - list [ref=e71]:
+          - listitem [ref=e73]:
+            - tab "通用搜索" [ref=e74] [cursor=pointer]
+          - listitem [ref=e76]:
+            - tab "全文检索" [ref=e77] [cursor=pointer]
+        - generic [ref=e80]:
+          - textbox "按书名、作者、ISBN、DOI、出版社、MD5等搜索…" [active] [ref=e82]
+          - button "搜索" [ref=e85] [cursor=pointer]: 搜索 
+        - generic [ref=e89] [cursor=pointer]: 搜索设置
+    - generic [ref=e90]:
+      - generic [ref=e91]:
+        - heading "最受欢迎" [level=2] [ref=e92]
+        - generic [ref=e95]:
+          - text: 在
+          - generic [ref=e96]:
+            - generic [ref=e97]: 
+            - link "Z-Recommend!" [ref=e98] [cursor=pointer]:
+              - /url: /users/zrecommended#
+          - text: 中探索书籍
+      - generic [ref=e100]:
+        - generic [ref=e101]:
+          - link "被讨厌的勇气：“自我启发之父”阿德勒的哲学课 = 嫌われる勇気：自己啓発の源流「アドラー」の教え [日] 岸见一郎，[日] 古贺史健 著；渠海霞 译 Downloaded":
+            - /url: /book/mDJxmKXWO6/%E8%A2%AB%E8%AE%A8%E5%8E%8C%E7%9A%84%E5%8B%87%E6%B0%94%E8%87%AA%E6%88%91%E5%90%AF%E5%8F%91%E4%B9%8B%E7%88%B6%E9%98%BF%E5%BE%B7%E5%8B%92%E7%9A%84%E5%93%B2%E5%AD%A6%E8%AF%BE-%E5%AB%8C%E3%82%8F%E3%82%8C%E3%82%8B%E5%8B%87%E6%B0%97%E8%87%AA%E5%B7%B1%E5%95%93%E7%99%BA%E3%81%AE%E6%BA%90%E6%B5%81%E3%82%A2%E3%83%89%E3%83%A9%E3%83%BC%E3%81%AE%E6%95%99%E3%81%88.html?dsource=mostpopular
+            - generic "被讨厌的勇气：“自我启发之父”阿德勒的哲学课 = 嫌われる勇気：自己啓発の源流「アドラー」の教え" [ref=e102] [cursor=pointer]:
+              - generic "被讨厌的勇气：“自我启发之父”阿德勒的哲学课 = 嫌われる勇気：自己啓発の源流「アドラー」の教え" [ref=e281]:
+                - generic [ref=e282]:
+                  - generic [ref=e287]: 被讨厌的勇气：“自我启发之父”阿德勒的哲学课 = 嫌われる勇気：自己啓発の源流「アドラー」の教え
+                  - generic [ref=e288]: "[日] 岸见一郎，[日] 古贺史健 著；渠海霞 译"
+                - img [ref=e290]
+                - generic:
+                  - generic: Downloaded
+                - link [ref=e291]:
+                  - /url: /book/mDJxmKXWO6/%E8%A2%AB%E8%AE%A8%E5%8E%8C%E7%9A%84%E5%8B%87%E6%B0%94%E8%87%AA%E6%88%91%E5%90%AF%E5%8F%91%E4%B9%8B%E7%88%B6%E9%98%BF%E5%BE%B7%E5%8B%92%E7%9A%84%E5%93%B2%E5%AD%A6%E8%AF%BE-%E5%AB%8C%E3%82%8F%E3%82%8C%E3%82%8B%E5%8B%87%E6%B0%97%E8%87%AA%E5%B7%B1%E5%95%93%E7%99%BA%E3%81%AE%E6%BA%90%E6%B5%81%E3%82%A2%E3%83%89%E3%83%A9%E3%83%BC%E3%81%AE%E6%95%99%E3%81%88.html?dsource=mostpopular
+        - generic [ref=e103]:
+          - link "你当像鸟飞往你的山 (美)塔拉·韦斯特弗(Tara Westover)著,任爱红译 Downloaded":
+            - /url: /book/mDJxkxdWO6/%E4%BD%A0%E5%BD%93%E5%83%8F%E9%B8%9F%E9%A3%9E%E5%BE%80%E4%BD%A0%E7%9A%84%E5%B1%B1.html?dsource=mostpopular
+            - generic "你当像鸟飞往你的山" [ref=e104] [cursor=pointer]:
+              - generic "你当像鸟飞往你的山" [ref=e292]:
+                - generic [ref=e293]:
+                  - generic [ref=e298]: 你当像鸟飞往你的山
+                  - generic [ref=e299]: (美)塔拉·韦斯特弗(Tara Westover)著,任爱红译
+                - img [ref=e301]
+                - generic:
+                  - generic: Downloaded
+                - link [ref=e302]:
+                  - /url: /book/mDJxkxdWO6/%E4%BD%A0%E5%BD%93%E5%83%8F%E9%B8%9F%E9%A3%9E%E5%BE%80%E4%BD%A0%E7%9A%84%E5%B1%B1.html?dsource=mostpopular
+        - generic [ref=e105]:
+          - link "《侯夫人与杀猪刀》(逐玉)[附带番外] 团子来袭 Downloaded":
+            - /url: /book/e9Y3YZKK8n/%E4%BE%AF%E5%A4%AB%E4%BA%BA%E4%B8%8E%E6%9D%80%E7%8C%AA%E5%88%80%E9%80%90%E7%8E%89%E9%99%84%E5%B8%A6%E7%95%AA%E5%A4%96.html?dsource=mostpopular
+            - generic "《侯夫人与杀猪刀》(逐玉)[附带番外]" [ref=e106] [cursor=pointer]:
+              - generic "《侯夫人与杀猪刀》(逐玉)[附带番外]" [ref=e303]:
+                - generic [ref=e304]:
+                  - generic [ref=e309]: 《侯夫人与杀猪刀》(逐玉)[附带番外]
+                  - generic [ref=e310]: 团子来袭
+                - img [ref=e312]
+                - generic:
+                  - generic: Downloaded
+                - link [ref=e313]:
+                  - /url: /book/e9Y3YZKK8n/%E4%BE%AF%E5%A4%AB%E4%BA%BA%E4%B8%8E%E6%9D%80%E7%8C%AA%E5%88%80%E9%80%90%E7%8E%89%E9%99%84%E5%B8%A6%E7%95%AA%E5%A4%96.html?dsource=mostpopular
+        - generic [ref=e107]:
+          - link "咸的玩笑 刘震云 Downloaded":
+            - /url: /book/6OdKEBdg9l/%E5%92%B8%E7%9A%84%E7%8E%A9%E7%AC%91.html?dsource=mostpopular
+            - generic "咸的玩笑" [ref=e108] [cursor=pointer]:
+              - generic "咸的玩笑" [ref=e314]:
+                - generic [ref=e315]:
+                  - generic [ref=e320]: 咸的玩笑
+                  - generic [ref=e321]: 刘震云
+                - img [ref=e323]
+                - generic:
+                  - generic: Downloaded
+                - link [ref=e324]:
+                  - /url: /book/6OdKEBdg9l/%E5%92%B8%E7%9A%84%E7%8E%A9%E7%AC%91.html?dsource=mostpopular
+        - generic [ref=e109]:
+          - link "窄门 安德烈·纪德,顾琪静 Downloaded":
+            - /url: /book/vOg5vqvzDL/%E7%AA%84%E9%97%A8.html?dsource=mostpopular
+            - generic "窄门" [ref=e110] [cursor=pointer]:
+              - generic "窄门" [ref=e325]:
+                - generic [ref=e326]:
+                  - generic [ref=e331]: 窄门
+                  - generic [ref=e332]: 安德烈·纪德,顾琪静
+                - img [ref=e334]
+                - generic:
+                  - generic: Downloaded
+                - link [ref=e335]:
+                  - /url: /book/vOg5vqvzDL/%E7%AA%84%E9%97%A8.html?dsource=mostpopular
+        - generic [ref=e111]:
+          - link "明朝那些事儿 当年明月 Downloaded":
+            - /url: /book/Lw8kpBnvDr/%E6%98%8E%E6%9C%9D%E9%82%A3%E4%BA%9B%E4%BA%8B%E5%84%BF.html?dsource=mostpopular
+            - generic "明朝那些事儿" [ref=e112] [cursor=pointer]:
+              - generic "明朝那些事儿" [ref=e336]:
+                - generic [ref=e337]:
+                  - generic [ref=e342]: 明朝那些事儿
+                  - generic [ref=e343]: 当年明月
+                - img [ref=e347]
+                - generic:
+                  - generic: Downloaded
+                - link [ref=e348]:
+                  - /url: /book/Lw8kpBnvDr/%E6%98%8E%E6%9C%9D%E9%82%A3%E4%BA%9B%E4%BA%8B%E5%84%BF.html?dsource=mostpopular
+        - generic [ref=e113]:
+          - link "认知觉醒:开启自我改变的原动力 周岭 Downloaded":
+            - /url: /book/mDJ14gy186/%E8%AE%A4%E7%9F%A5%E8%A7%89%E9%86%92%E5%BC%80%E5%90%AF%E8%87%AA%E6%88%91%E6%94%B9%E5%8F%98%E7%9A%84%E5%8E%9F%E5%8A%A8%E5%8A%9B.html?dsource=mostpopular
+            - generic "认知觉醒:开启自我改变的原动力" [ref=e114] [cursor=pointer]:
+              - generic "认知觉醒:开启自我改变的原动力" [ref=e349]:
+                - generic [ref=e350]:
+                  - generic [ref=e355]: 认知觉醒:开启自我改变的原动力
+                  - generic [ref=e356]: 周岭
+                - img [ref=e360]
+                - generic:
+                  - generic: Downloaded
+                - link [ref=e361]:
+                  - /url: /book/mDJ14gy186/%E8%AE%A4%E7%9F%A5%E8%A7%89%E9%86%92%E5%BC%80%E5%90%AF%E8%87%AA%E6%88%91%E6%94%B9%E5%8F%98%E7%9A%84%E5%8E%9F%E5%8A%A8%E5%8A%9B.html?dsource=mostpopular
+        - generic [ref=e115]:
+          - link "我与地坛 史铁生 Downloaded":
+            - /url: /book/o92Rm2RZ9K/%E6%88%91%E4%B8%8E%E5%9C%B0%E5%9D%9B.html?dsource=mostpopular
+            - generic "我与地坛" [ref=e116] [cursor=pointer]:
+              - generic "我与地坛" [ref=e362]:
+                - generic [ref=e363]:
+                  - generic [ref=e368]: 我与地坛
+                  - generic [ref=e369]: 史铁生
+                - img [ref=e373]
+                - generic:
+                  - generic: Downloaded
+                - link [ref=e374]:
+                  - /url: /book/o92Rm2RZ9K/%E6%88%91%E4%B8%8E%E5%9C%B0%E5%9D%9B.html?dsource=mostpopular
+        - generic [ref=e117]:
+          - 'link "蛤蟆先生去看心理医生 = Counselling For Toads: A Psychological Adventure [英] 罗伯特 · 戴博德 (Robert de Board) 著 ; 陈赢 译 Downloaded"':
+            - /url: /book/w9p2KY1X8b/%E8%9B%A4%E8%9F%86%E5%85%88%E7%94%9F%E5%8E%BB%E7%9C%8B%E5%BF%83%E7%90%86%E5%8C%BB%E7%94%9F-counselling-for-toads-a-psychological-adventure.html?dsource=mostpopular
+            - 'generic "蛤蟆先生去看心理医生 = Counselling For Toads: A Psychological Adventure" [ref=e118] [cursor=pointer]':
+              - 'generic "蛤蟆先生去看心理医生 = Counselling For Toads: A Psychological Adventure" [ref=e375]':
+                - generic [ref=e376]:
+                  - generic [ref=e381]: "蛤蟆先生去看心理医生 = Counselling For Toads: A Psychological Adventure"
+                  - generic [ref=e382]: "[英] 罗伯特 · 戴博德 (Robert de Board) 著 ; 陈赢 译"
+                - img [ref=e386]
+                - generic:
+                  - generic: Downloaded
+                - link [ref=e387]:
+                  - /url: /book/w9p2KY1X8b/%E8%9B%A4%E8%9F%86%E5%85%88%E7%94%9F%E5%8E%BB%E7%9C%8B%E5%BF%83%E7%90%86%E5%8C%BB%E7%94%9F-counselling-for-toads-a-psychological-adventure.html?dsource=mostpopular
+        - generic [ref=e119]:
+          - link "毛泽东选集 一至七卷 含静火版 毛泽东 Downloaded":
+            - /url: /book/mD05K36B9o/%E6%AF%9B%E6%B3%BD%E4%B8%9C%E9%80%89%E9%9B%86-%E4%B8%80%E8%87%B3%E4%B8%83%E5%8D%B7-%E5%90%AB%E9%9D%99%E7%81%AB%E7%89%88.html?dsource=mostpopular
+            - generic "毛泽东选集 一至七卷 含静火版" [ref=e120] [cursor=pointer]:
+              - generic "毛泽东选集 一至七卷 含静火版" [ref=e388]:
+                - generic [ref=e389]:
+                  - generic [ref=e394]: 毛泽东选集 一至七卷 含静火版
+                  - generic [ref=e395]: 毛泽东
+                - img [ref=e399]
+                - generic:
+                  - generic: Downloaded
+                - link [ref=e400]:
+                  - /url: /book/mD05K36B9o/%E6%AF%9B%E6%B3%BD%E4%B8%9C%E9%80%89%E9%9B%86-%E4%B8%80%E8%87%B3%E4%B8%83%E5%8D%B7-%E5%90%AB%E9%9D%99%E7%81%AB%E7%89%88.html?dsource=mostpopular
+        - generic [ref=e121]:
+          - link "以日为鉴 衰退时代生存指南 分析师Boden Downloaded":
+            - /url: /book/JDAVJ0Kk9A/%E4%BB%A5%E6%97%A5%E4%B8%BA%E9%89%B4-%E8%A1%B0%E9%80%80%E6%97%B6%E4%BB%A3%E7%94%9F%E5%AD%98%E6%8C%87%E5%8D%97.html?dsource=mostpopular
+            - generic "以日为鉴 衰退时代生存指南" [ref=e122] [cursor=pointer]:
+              - generic "以日为鉴 衰退时代生存指南" [ref=e401]:
+                - generic [ref=e402]:
+                  - generic [ref=e407]: 以日为鉴 衰退时代生存指南
+                  - generic [ref=e408]: 分析师Boden
+                - img [ref=e412]
+                - generic:
+                  - generic: Downloaded
+                - link [ref=e413]:
+                  - /url: /book/JDAVJ0Kk9A/%E4%BB%A5%E6%97%A5%E4%B8%BA%E9%89%B4-%E8%A1%B0%E9%80%80%E6%97%B6%E4%BB%A3%E7%94%9F%E5%AD%98%E6%8C%87%E5%8D%97.html?dsource=mostpopular
+        - generic [ref=e123]:
+          - link "挽救计划 安迪·威尔 Downloaded":
+            - /url: /book/w8kjm1deOr/%E6%8C%BD%E6%95%91%E8%AE%A1%E5%88%92.html?dsource=mostpopular
+            - generic "挽救计划" [ref=e124] [cursor=pointer]:
+              - generic "挽救计划" [ref=e414]:
+                - generic [ref=e415]:
+                  - generic [ref=e420]: 挽救计划
+                  - generic [ref=e421]: 安迪·威尔
+                - img [ref=e425]
+                - generic:
+                  - generic: Downloaded
+                - link [ref=e426]:
+                  - /url: /book/w8kjm1deOr/%E6%8C%BD%E6%95%91%E8%AE%A1%E5%88%92.html?dsource=mostpopular
+        - generic [ref=e125]:
+          - link "百年孤独 = Cien años de soledad [哥伦比亚] 加西亚 · 马尔克斯 (Gabriel García Márquez) 著 ; 范晔 译 Downloaded":
+            - /url: /book/6Od3j6vj9l/%E7%99%BE%E5%B9%B4%E5%AD%A4%E7%8B%AC-cien-a%C3%B1os-de-soledad.html?dsource=mostpopular
+            - generic "百年孤独 = Cien años de soledad" [ref=e126] [cursor=pointer]:
+              - generic "百年孤独 = Cien años de soledad" [ref=e427]:
+                - generic [ref=e428]:
+                  - generic [ref=e433]: 百年孤独 = Cien años de soledad
+                  - generic [ref=e434]: "[哥伦比亚] 加西亚 · 马尔克斯 (Gabriel García Márquez) 著 ; 范晔 译"
+                - img [ref=e438]
+                - generic:
+                  - generic: Downloaded
+                - link [ref=e439]:
+                  - /url: /book/6Od3j6vj9l/%E7%99%BE%E5%B9%B4%E5%AD%A4%E7%8B%AC-cien-a%C3%B1os-de-soledad.html?dsource=mostpopular
+        - generic [ref=e127]:
+          - link "我身上有个不可战胜的夏天 【法】加缪 Downloaded":
+            - /url: /book/ND4E4lKq96/%E6%88%91%E8%BA%AB%E4%B8%8A%E6%9C%89%E4%B8%AA%E4%B8%8D%E5%8F%AF%E6%88%98%E8%83%9C%E7%9A%84%E5%A4%8F%E5%A4%A9.html?dsource=mostpopular
+            - generic "我身上有个不可战胜的夏天" [ref=e128] [cursor=pointer]:
+              - generic "我身上有个不可战胜的夏天" [ref=e440]:
+                - generic [ref=e441]:
+                  - generic [ref=e446]: 我身上有个不可战胜的夏天
+                  - generic [ref=e447]: 【法】加缪
+                - img [ref=e451]
+                - generic:
+                  - generic: Downloaded
+                - link [ref=e452]:
+                  - /url: /book/ND4E4lKq96/%E6%88%91%E8%BA%AB%E4%B8%8A%E6%9C%89%E4%B8%AA%E4%B8%8D%E5%8F%AF%E6%88%98%E8%83%9C%E7%9A%84%E5%A4%8F%E5%A4%A9.html?dsource=mostpopular
+        - generic [ref=e129]:
+          - 'link "纳瓦尔宝典：财富与幸福指南 = The Almanack of Naval Ravikant: A Guide to Wealth and Happiness [美] 埃里克 · 乔根森 (Eric Jorgenson) 著 ; 赵灿 译 Downloaded"':
+            - /url: /book/K9KmdQoE8d/%E7%BA%B3%E7%93%A6%E5%B0%94%E5%AE%9D%E5%85%B8%E8%B4%A2%E5%AF%8C%E4%B8%8E%E5%B9%B8%E7%A6%8F%E6%8C%87%E5%8D%97-the-almanack-of-naval-ravikant-a-guide-to-wealth-and-happiness.html?dsource=mostpopular
+            - 'generic "纳瓦尔宝典：财富与幸福指南 = The Almanack of Naval Ravikant: A Guide to Wealth and Happiness" [ref=e130] [cursor=pointer]':
+              - 'generic "纳瓦尔宝典：财富与幸福指南 = The Almanack of Naval Ravikant: A Guide to Wealth and Happiness" [ref=e453]':
+                - generic [ref=e454]:
+                  - generic [ref=e459]: "纳瓦尔宝典：财富与幸福指南 = The Almanack of Naval Ravikant: A Guide to Wealth and Happiness"
+                  - generic [ref=e460]: "[美] 埃里克 · 乔根森 (Eric Jorgenson) 著 ; 赵灿 译"
+                - img [ref=e464]
+                - generic:
+                  - generic: Downloaded
+                - link [ref=e465]:
+                  - /url: /book/K9KmdQoE8d/%E7%BA%B3%E7%93%A6%E5%B0%94%E5%AE%9D%E5%85%B8%E8%B4%A2%E5%AF%8C%E4%B8%8E%E5%B9%B8%E7%A6%8F%E6%8C%87%E5%8D%97-the-almanack-of-naval-ravikant-a-guide-to-wealth-and-happiness.html?dsource=mostpopular
+        - generic [ref=e131]:
+          - link "底层逻辑：看清这个世界的底牌 刘润 Downloaded":
+            - /url: /book/XOxwzARE9j/%E5%BA%95%E5%B1%82%E9%80%BB%E8%BE%91%E7%9C%8B%E6%B8%85%E8%BF%99%E4%B8%AA%E4%B8%96%E7%95%8C%E7%9A%84%E5%BA%95%E7%89%8C.html?dsource=mostpopular
+            - generic "底层逻辑：看清这个世界的底牌" [ref=e132] [cursor=pointer]:
+              - generic "底层逻辑：看清这个世界的底牌" [ref=e466]:
+                - generic [ref=e467]:
+                  - generic [ref=e472]: 底层逻辑：看清这个世界的底牌
+                  - generic [ref=e473]: 刘润
+                - img [ref=e477]
+                - generic:
+                  - generic: Downloaded
+                - link [ref=e478]:
+                  - /url: /book/XOxwzARE9j/%E5%BA%95%E5%B1%82%E9%80%BB%E8%BE%91%E7%9C%8B%E6%B8%85%E8%BF%99%E4%B8%AA%E4%B8%96%E7%95%8C%E7%9A%84%E5%BA%95%E7%89%8C.html?dsource=mostpopular
+        - generic [ref=e133]:
+          - 'link "非暴力沟通 = Nonviolent Communication: A Language of Life: Life-Changing Tools for Healthy Relationships [美] 马歇尔・卢森堡 (Marshall B. Rosenberg) 著 ; 阮胤华 译 Downloaded"':
+            - /url: /book/kDPWv1gM8m/%E9%9D%9E%E6%9A%B4%E5%8A%9B%E6%B2%9F%E9%80%9A-nonviolent-communication-a-language-of-life-lifechanging-tools-for-healthy-relationships.html?dsource=mostpopular
+            - 'generic "非暴力沟通 = Nonviolent Communication: A Language of Life: Life-Changing Tools for Healthy Relationships" [ref=e134] [cursor=pointer]':
+              - 'generic "非暴力沟通 = Nonviolent Communication: A Language of Life: Life-Changing Tools for Healthy Relationships" [ref=e479]':
+                - generic [ref=e480]:
+                  - generic [ref=e485]: "非暴力沟通 = Nonviolent Communication: A Language of Life: Life-Changing Tools for Healthy Relationships"
+                  - generic [ref=e486]: "[美] 马歇尔・卢森堡 (Marshall B. Rosenberg) 著 ; 阮胤华 译"
+                - img [ref=e490]
+                - generic:
+                  - generic: Downloaded
+                - link [ref=e491]:
+                  - /url: /book/kDPWv1gM8m/%E9%9D%9E%E6%9A%B4%E5%8A%9B%E6%B2%9F%E9%80%9A-nonviolent-communication-a-language-of-life-lifechanging-tools-for-healthy-relationships.html?dsource=mostpopular
+        - generic [ref=e135]:
+          - link "素食者 = 채식주의자 韩江, 한강;胡椒筒 Downloaded":
+            - /url: /book/a91YjZYM9d/%E7%B4%A0%E9%A3%9F%E8%80%85-%EC%B1%84%EC%8B%9D%EC%A3%BC%EC%9D%98%EC%9E%90.html?dsource=mostpopular
+            - generic "素食者 = 채식주의자" [ref=e136] [cursor=pointer]:
+              - generic "素食者 = 채식주의자" [ref=e492]:
+                - generic [ref=e493]:
+                  - generic [ref=e498]: 素食者 = 채식주의자
+                  - generic [ref=e499]: 韩江, 한강;胡椒筒
+                - img [ref=e503]
+                - generic:
+                  - generic: Downloaded
+                - link [ref=e504]:
+                  - /url: /book/a91YjZYM9d/%E7%B4%A0%E9%A3%9F%E8%80%85-%EC%B1%84%EC%8B%9D%EC%A3%BC%EC%9D%98%EC%9E%90.html?dsource=mostpopular
+        - generic [ref=e137]:
+          - link "小狗钱钱 舍费尔 Downloaded":
+            - /url: /book/mDJ1aQmZ86/%E5%B0%8F%E7%8B%97%E9%92%B1%E9%92%B1.html?dsource=mostpopular
+            - generic "小狗钱钱" [ref=e138] [cursor=pointer]:
+              - generic "小狗钱钱" [ref=e505]:
+                - generic [ref=e506]:
+                  - generic [ref=e511]: 小狗钱钱
+                  - generic [ref=e512]: 舍费尔
+                - img [ref=e516]
+                - generic:
+                  - generic: Downloaded
+                - link [ref=e517]:
+                  - /url: /book/mDJ1aQmZ86/%E5%B0%8F%E7%8B%97%E9%92%B1%E9%92%B1.html?dsource=mostpopular
+        - generic [ref=e139]:
+          - link "一句顶一万句 刘震云 Downloaded":
+            - /url: /book/e9Yqa1rK9n/%E4%B8%80%E5%8F%A5%E9%A1%B6%E4%B8%80%E4%B8%87%E5%8F%A5.html?dsource=mostpopular
+            - generic "一句顶一万句" [ref=e140] [cursor=pointer]:
+              - generic "一句顶一万句" [ref=e518]:
+                - generic [ref=e519]:
+                  - generic [ref=e524]: 一句顶一万句
+                  - generic [ref=e525]: 刘震云
+                - img [ref=e529]
+                - generic:
+                  - generic: Downloaded
+                - link [ref=e530]:
+                  - /url: /book/e9Yqa1rK9n/%E4%B8%80%E5%8F%A5%E9%A1%B6%E4%B8%80%E4%B8%87%E5%8F%A5.html?dsource=mostpopular
+        - generic [ref=e141]:
+          - link "金瓶梅：崇祯本 兰陵笑笑生 Downloaded":
+            - /url: /book/Y8q5dKp08N/%E9%87%91%E7%93%B6%E6%A2%85%E5%B4%87%E7%A5%AF%E6%9C%AC.html?dsource=mostpopular
+            - generic "金瓶梅：崇祯本" [ref=e142] [cursor=pointer]:
+              - generic "金瓶梅：崇祯本" [ref=e531]:
+                - generic [ref=e532]:
+                  - generic [ref=e537]: 金瓶梅：崇祯本
+                  - generic [ref=e538]: 兰陵笑笑生
+                - img [ref=e542]
+                - generic:
+                  - generic: Downloaded
+                - link [ref=e543]:
+                  - /url: /book/Y8q5dKp08N/%E9%87%91%E7%93%B6%E6%A2%85%E5%B4%87%E7%A5%AF%E6%9C%AC.html?dsource=mostpopular
+        - generic [ref=e143]:
+          - link "悉达多 赫尔曼·黑塞 Downloaded":
+            - /url: /book/EOoY0YxyDd/%E6%82%89%E8%BE%BE%E5%A4%9A.html?dsource=mostpopular
+            - generic "悉达多" [ref=e144] [cursor=pointer]:
+              - generic "悉达多" [ref=e544]:
+                - generic [ref=e545]:
+                  - generic [ref=e550]: 悉达多
+                  - generic [ref=e551]: 赫尔曼·黑塞
+                - img [ref=e555]
+                - generic:
+                  - generic: Downloaded
+                - link [ref=e556]:
+                  - /url: /book/EOoY0YxyDd/%E6%82%89%E8%BE%BE%E5%A4%9A.html?dsource=mostpopular
+        - generic [ref=e145]:
+          - link "人类简史:从动物到上帝(完整版) 哈拉里·尤瓦尔·诺亚·哈拉里, 林俊宏 Downloaded":
+            - /url: /book/gJDApoak8A/%E4%BA%BA%E7%B1%BB%E7%AE%80%E5%8F%B2%E4%BB%8E%E5%8A%A8%E7%89%A9%E5%88%B0%E4%B8%8A%E5%B8%9D%E5%AE%8C%E6%95%B4%E7%89%88.html?dsource=mostpopular
+            - generic "人类简史:从动物到上帝(完整版)" [ref=e146] [cursor=pointer]:
+              - generic "人类简史:从动物到上帝(完整版)" [ref=e557]:
+                - generic [ref=e558]:
+                  - generic [ref=e563]: 人类简史:从动物到上帝(完整版)
+                  - generic [ref=e564]: 哈拉里·尤瓦尔·诺亚·哈拉里, 林俊宏
+                - img [ref=e568]
+                - generic:
+                  - generic: Downloaded
+                - link [ref=e569]:
+                  - /url: /book/gJDApoak8A/%E4%BA%BA%E7%B1%BB%E7%AE%80%E5%8F%B2%E4%BB%8E%E5%8A%A8%E7%89%A9%E5%88%B0%E4%B8%8A%E5%B8%9D%E5%AE%8C%E6%95%B4%E7%89%88.html?dsource=mostpopular
+        - generic [ref=e147]:
+          - link "乌合之众:群体心理学 古斯塔夫·勒庞, Gustave Le Bon Downloaded":
+            - /url: /book/w9p2bVLJ8b/%E4%B9%8C%E5%90%88%E4%B9%8B%E4%BC%97%E7%BE%A4%E4%BD%93%E5%BF%83%E7%90%86%E5%AD%A6.html?dsource=mostpopular
+            - generic "乌合之众:群体心理学" [ref=e148] [cursor=pointer]:
+              - generic "乌合之众:群体心理学" [ref=e570]:
+                - generic [ref=e571]:
+                  - generic [ref=e576]: 乌合之众:群体心理学
+                  - generic [ref=e577]: 古斯塔夫·勒庞, Gustave Le Bon
+                - img [ref=e581]
+                - generic:
+                  - generic: Downloaded
+                - link [ref=e582]:
+                  - /url: /book/w9p2bVLJ8b/%E4%B9%8C%E5%90%88%E4%B9%8B%E4%BC%97%E7%BE%A4%E4%BD%93%E5%BF%83%E7%90%86%E5%AD%A6.html?dsource=mostpopular
+        - generic [ref=e149]:
+          - link "逐玉(侯夫人与杀猪刀) [附带番外] 团子来袭 Downloaded":
+            - /url: /book/oDWV0rXv8V/%E9%80%90%E7%8E%89%E4%BE%AF%E5%A4%AB%E4%BA%BA%E4%B8%8E%E6%9D%80%E7%8C%AA%E5%88%80-%E9%99%84%E5%B8%A6%E7%95%AA%E5%A4%96.html?dsource=mostpopular
+            - generic "逐玉(侯夫人与杀猪刀) [附带番外]" [ref=e150] [cursor=pointer]:
+              - generic "逐玉(侯夫人与杀猪刀) [附带番外]" [ref=e583]:
+                - generic [ref=e584]:
+                  - generic [ref=e589]: 逐玉(侯夫人与杀猪刀) [附带番外]
+                  - generic [ref=e590]: 团子来袭
+                - img [ref=e594]
+                - generic:
+                  - generic: Downloaded
+                - link [ref=e595]:
+                  - /url: /book/oDWV0rXv8V/%E9%80%90%E7%8E%89%E4%BE%AF%E5%A4%AB%E4%BA%BA%E4%B8%8E%E6%9D%80%E7%8C%AA%E5%88%80-%E9%99%84%E5%B8%A6%E7%95%AA%E5%A4%96.html?dsource=mostpopular
+        - generic [ref=e151]:
+          - link "置身事内：中国政府与经济发展 兰小欢 Downloaded":
+            - /url: /book/w8n2kmXY8Q/%E7%BD%AE%E8%BA%AB%E4%BA%8B%E5%86%85%E4%B8%AD%E5%9B%BD%E6%94%BF%E5%BA%9C%E4%B8%8E%E7%BB%8F%E6%B5%8E%E5%8F%91%E5%B1%95.html?dsource=mostpopular
+            - generic "置身事内：中国政府与经济发展" [ref=e152] [cursor=pointer]:
+              - generic "置身事内：中国政府与经济发展" [ref=e596]:
+                - generic [ref=e597]:
+                  - generic [ref=e602]: 置身事内：中国政府与经济发展
+                  - generic [ref=e603]: 兰小欢
+                - img [ref=e607]
+                - generic:
+                  - generic: Downloaded
+                - link [ref=e608]:
+                  - /url: /book/w8n2kmXY8Q/%E7%BD%AE%E8%BA%AB%E4%BA%8B%E5%86%85%E4%B8%AD%E5%9B%BD%E6%94%BF%E5%BA%9C%E4%B8%8E%E7%BB%8F%E6%B5%8E%E5%8F%91%E5%B1%95.html?dsource=mostpopular
+        - generic [ref=e153]:
+          - link "剑来 烽火戏诸侯 Downloaded":
+            - /url: /book/ZOEbPrVW8P/%E5%89%91%E6%9D%A5.html?dsource=mostpopular
+            - generic "剑来" [ref=e154] [cursor=pointer]:
+              - generic "剑来" [ref=e609]:
+                - generic [ref=e610]:
+                  - generic [ref=e615]: 剑来
+                  - generic [ref=e616]: 烽火戏诸侯
+                - img [ref=e620]
+                - generic:
+                  - generic: Downloaded
+                - link [ref=e621]:
+                  - /url: /book/ZOEbPrVW8P/%E5%89%91%E6%9D%A5.html?dsource=mostpopular
+        - generic [ref=e155]:
+          - link "习近平新时代中国特色社会主义思想概论 《习近平新时代中国特色社会主义思想概论》编写组 Downloaded":
+            - /url: /book/gOjMypnv9W/%E4%B9%A0%E8%BF%91%E5%B9%B3%E6%96%B0%E6%97%B6%E4%BB%A3%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E6%80%9D%E6%83%B3%E6%A6%82%E8%AE%BA.html?dsource=mostpopular
+            - generic "习近平新时代中国特色社会主义思想概论" [ref=e156] [cursor=pointer]:
+              - generic "习近平新时代中国特色社会主义思想概论" [ref=e622]:
+                - generic [ref=e623]:
+                  - generic [ref=e628]: 习近平新时代中国特色社会主义思想概论
+                  - generic [ref=e629]: 《习近平新时代中国特色社会主义思想概论》编写组
+                - img [ref=e633]
+                - generic:
+                  - generic: Downloaded
+                - link [ref=e634]:
+                  - /url: /book/gOjMypnv9W/%E4%B9%A0%E8%BF%91%E5%B9%B3%E6%96%B0%E6%97%B6%E4%BB%A3%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E6%80%9D%E6%83%B3%E6%A6%82%E8%AE%BA.html?dsource=mostpopular
+        - generic [ref=e157]:
+          - link "诡秘之主 爱潜水的乌贼 Downloaded":
+            - /url: /book/6Od3E1ye9l/%E8%AF%A1%E7%A7%98%E4%B9%8B%E4%B8%BB.html?dsource=mostpopular
+            - generic "诡秘之主" [ref=e158] [cursor=pointer]:
+              - generic "诡秘之主" [ref=e635]:
+                - generic [ref=e636]:
+                  - generic [ref=e641]: 诡秘之主
+                  - generic [ref=e642]: 爱潜水的乌贼
+                - img [ref=e646]
+                - generic:
+                  - generic: Downloaded
+                - link [ref=e647]:
+                  - /url: /book/6Od3E1ye9l/%E8%AF%A1%E7%A7%98%E4%B9%8B%E4%B8%BB.html?dsource=mostpopular
+        - generic [ref=e159]:
+          - link "毛泽东选集(毛选1-7:原版五卷+静火+赤旗+草堂) 毛泽东 Downloaded":
+            - /url: /book/AOMezY0aOe/%E6%AF%9B%E6%B3%BD%E4%B8%9C%E9%80%89%E9%9B%86%E6%AF%9B%E9%80%8917%E5%8E%9F%E7%89%88%E4%BA%94%E5%8D%B7%E9%9D%99%E7%81%AB%E8%B5%A4%E6%97%97%E8%8D%89%E5%A0%82.html?dsource=mostpopular
+            - generic "毛泽东选集(毛选1-7:原版五卷+静火+赤旗+草堂)" [ref=e160] [cursor=pointer]:
+              - generic "毛泽东选集(毛选1-7:原版五卷+静火+赤旗+草堂)" [ref=e648]:
+                - generic [ref=e649]:
+                  - generic [ref=e654]: 毛泽东选集(毛选1-7:原版五卷+静火+赤旗+草堂)
+                  - generic [ref=e655]: 毛泽东
+                - img [ref=e659]
+                - generic:
+                  - generic: Downloaded
+                - link [ref=e660]:
+                  - /url: /book/AOMezY0aOe/%E6%AF%9B%E6%B3%BD%E4%B8%9C%E9%80%89%E9%9B%86%E6%AF%9B%E9%80%8917%E5%8E%9F%E7%89%88%E4%BA%94%E5%8D%B7%E9%9D%99%E7%81%AB%E8%B5%A4%E6%97%97%E8%8D%89%E5%A0%82.html?dsource=mostpopular
+        - generic [ref=e161]:
+          - link "穷查理宝典：查理·芒格智慧箴言录（全新增订本）（价值投资圣经，人生智慧宝典。全新升级版发布！97岁的查理•芒格还在不断学习精进 我们怎么能停止自我更新？） 查理·芒格 & 彼得·考夫曼 Downloaded":
+            - /url: /book/L9VRJ2wZ9k/%E7%A9%B7%E6%9F%A5%E7%90%86%E5%AE%9D%E5%85%B8%E6%9F%A5%E7%90%86%E8%8A%92%E6%A0%BC%E6%99%BA%E6%85%A7%E7%AE%B4%E8%A8%80%E5%BD%95%E5%85%A8%E6%96%B0%E5%A2%9E%E8%AE%A2%E6%9C%AC%E4%BB%B7%E5%80%BC%E6%8A%95%E8%B5%84%E5%9C%A3%E7%BB%8F%E4%BA%BA%E7%94%9F%E6%99%BA%E6%85%A7%E5%AE%9D%E5%85%B8%E5%85%A8%E6%96%B0%E5%8D%87%E7%BA%A7%E7%89%88%E5%8F%91%E5%B8%8397%E5%B2%81%E7%9A%84%E6%9F%A5%E7%90%86%E8%8A%92%E6%A0%BC%E8%BF%98%E5%9C%A8%E4%B8%8D%E6%96%AD%E5%AD%A6%E4%B9%A0%E7%B2%BE%E8%BF%9B-%E6%88%91%E4%BB%AC%E6%80%8E%E4%B9%88%E8%83%BD%E5%81%9C%E6%AD%A2%E8%87%AA%E6%88%91%E6%9B%B4%E6%96%B0.html?dsource=mostpopular
+            - generic "穷查理宝典：查理·芒格智慧箴言录（全新增订本）（价值投资圣经，人生智慧宝典。全新升级版发布！97岁的查理•芒格还在不断学习精进 我们怎么能停止自我更新？）" [ref=e162] [cursor=pointer]:
+              - generic "穷查理宝典：查理·芒格智慧箴言录（全新增订本）（价值投资圣经，人生智慧宝典。全新升级版发布！97岁的查理•芒格还在不断学习精进 我们怎么能停止自我更新？）" [ref=e661]:
+                - generic [ref=e662]:
+                  - generic [ref=e667]: 穷查理宝典：查理·芒格智慧箴言录（全新增订本）（价值投资圣经，人生智慧宝典。全新升级版发布！97岁的查理•芒格还在不断学习精进 我们怎么能停止自我更新？）
+                  - generic [ref=e668]: 查理·芒格 & 彼得·考夫曼
+                - img [ref=e672]
+                - generic:
+                  - generic: Downloaded
+                - link [ref=e673]:
+                  - /url: /book/L9VRJ2wZ9k/%E7%A9%B7%E6%9F%A5%E7%90%86%E5%AE%9D%E5%85%B8%E6%9F%A5%E7%90%86%E8%8A%92%E6%A0%BC%E6%99%BA%E6%85%A7%E7%AE%B4%E8%A8%80%E5%BD%95%E5%85%A8%E6%96%B0%E5%A2%9E%E8%AE%A2%E6%9C%AC%E4%BB%B7%E5%80%BC%E6%8A%95%E8%B5%84%E5%9C%A3%E7%BB%8F%E4%BA%BA%E7%94%9F%E6%99%BA%E6%85%A7%E5%AE%9D%E5%85%B8%E5%85%A8%E6%96%B0%E5%8D%87%E7%BA%A7%E7%89%88%E5%8F%91%E5%B8%8397%E5%B2%81%E7%9A%84%E6%9F%A5%E7%90%86%E8%8A%92%E6%A0%BC%E8%BF%98%E5%9C%A8%E4%B8%8D%E6%96%AD%E5%AD%A6%E4%B9%A0%E7%B2%BE%E8%BF%9B-%E6%88%91%E4%BB%AC%E6%80%8E%E4%B9%88%E8%83%BD%E5%81%9C%E6%AD%A2%E8%87%AA%E6%88%91%E6%9B%B4%E6%96%B0.html?dsource=mostpopular
+        - generic [ref=e163]:
+          - link "杀死一只知更鸟 (2017) [= To Kill a Mockingbird (1960)] Harper Lee Downloaded":
+            - /url: /book/5D6a7p438d/%E6%9D%80%E6%AD%BB%E4%B8%80%E5%8F%AA%E7%9F%A5%E6%9B%B4%E9%B8%9F-2017-to-kill-a-mockingbird-1960.html?dsource=mostpopular
+            - generic "杀死一只知更鸟 (2017) [= To Kill a Mockingbird (1960)]" [ref=e164] [cursor=pointer]:
+              - generic "杀死一只知更鸟 (2017) [= To Kill a Mockingbird (1960)]" [ref=e674]:
+                - generic [ref=e675]:
+                  - generic [ref=e680]: 杀死一只知更鸟 (2017) [= To Kill a Mockingbird (1960)]
+                  - generic [ref=e681]: Harper Lee
+                - img [ref=e685]
+                - generic:
+                  - generic: Downloaded
+                - link [ref=e686]:
+                  - /url: /book/5D6a7p438d/%E6%9D%80%E6%AD%BB%E4%B8%80%E5%8F%AA%E7%9F%A5%E6%9B%B4%E9%B8%9F-2017-to-kill-a-mockingbird-1960.html?dsource=mostpopular
+        - generic [ref=e165]:
+          - link "余华作品全集(套装共13册) 余华 Downloaded":
+            - /url: /book/mDbbjY0mDA/%E4%BD%99%E5%8D%8E%E4%BD%9C%E5%93%81%E5%85%A8%E9%9B%86%E5%A5%97%E8%A3%85%E5%85%B113%E5%86%8C.html?dsource=mostpopular
+            - generic "余华作品全集(套装共13册)" [ref=e166] [cursor=pointer]:
+              - generic "余华作品全集(套装共13册)" [ref=e687]:
+                - generic [ref=e688]:
+                  - generic [ref=e693]: 余华作品全集(套装共13册)
+                  - generic [ref=e694]: 余华
+                - img [ref=e698]
+                - generic:
+                  - generic: Downloaded
+                - link [ref=e699]:
+                  - /url: /book/mDbbjY0mDA/%E4%BD%99%E5%8D%8E%E4%BD%9C%E5%93%81%E5%85%A8%E9%9B%86%E5%A5%97%E8%A3%85%E5%85%B113%E5%86%8C.html?dsource=mostpopular
+        - generic [ref=e167]:
+          - link "富爸爸商学院+富爸爸致富需要做的6件事+富爸爸穷爸爸+富爸爸提高你的财商+富爸爸财务自由之路(修订版)(套装共5册) 〔美〕罗伯特·清崎；〔美〕莎伦·莱希特等 [〔美〕罗伯特·清崎；〔美〕莎伦·莱希特等] Downloaded":
+            - /url: /book/gOjqyzEd9W/%E5%AF%8C%E7%88%B8%E7%88%B8%E5%95%86%E5%AD%A6%E9%99%A2%E5%AF%8C%E7%88%B8%E7%88%B8%E8%87%B4%E5%AF%8C%E9%9C%80%E8%A6%81%E5%81%9A%E7%9A%846%E4%BB%B6%E4%BA%8B%E5%AF%8C%E7%88%B8%E7%88%B8%E7%A9%B7%E7%88%B8%E7%88%B8%E5%AF%8C%E7%88%B8%E7%88%B8%E6%8F%90%E9%AB%98%E4%BD%A0%E7%9A%84%E8%B4%A2%E5%95%86%E5%AF%8C%E7%88%B8%E7%88%B8%E8%B4%A2%E5%8A%A1%E8%87%AA%E7%94%B1%E4%B9%8B%E8%B7%AF%E4%BF%AE%E8%AE%A2%E7%89%88%E5%A5%97%E8%A3%85%E5%85%B15%E5%86%8C.html?dsource=mostpopular
+            - generic "富爸爸商学院+富爸爸致富需要做的6件事+富爸爸穷爸爸+富爸爸提高你的财商+富爸爸财务自由之路(修订版)(套装共5册)" [ref=e168] [cursor=pointer]:
+              - generic "富爸爸商学院+富爸爸致富需要做的6件事+富爸爸穷爸爸+富爸爸提高你的财商+富爸爸财务自由之路(修订版)(套装共5册)" [ref=e700]:
+                - generic [ref=e701]:
+                  - generic [ref=e706]: 富爸爸商学院+富爸爸致富需要做的6件事+富爸爸穷爸爸+富爸爸提高你的财商+富爸爸财务自由之路(修订版)(套装共5册)
+                  - generic [ref=e707]: 〔美〕罗伯特·清崎；〔美〕莎伦·莱希特等 [〔美〕罗伯特·清崎；〔美〕莎伦·莱希特等]
+                - img [ref=e711]
+                - generic:
+                  - generic: Downloaded
+                - link [ref=e712]:
+                  - /url: /book/gOjqyzEd9W/%E5%AF%8C%E7%88%B8%E7%88%B8%E5%95%86%E5%AD%A6%E9%99%A2%E5%AF%8C%E7%88%B8%E7%88%B8%E8%87%B4%E5%AF%8C%E9%9C%80%E8%A6%81%E5%81%9A%E7%9A%846%E4%BB%B6%E4%BA%8B%E5%AF%8C%E7%88%B8%E7%88%B8%E7%A9%B7%E7%88%B8%E7%88%B8%E5%AF%8C%E7%88%B8%E7%88%B8%E6%8F%90%E9%AB%98%E4%BD%A0%E7%9A%84%E8%B4%A2%E5%95%86%E5%AF%8C%E7%88%B8%E7%88%B8%E8%B4%A2%E5%8A%A1%E8%87%AA%E7%94%B1%E4%B9%8B%E8%B7%AF%E4%BF%AE%E8%AE%A2%E7%89%88%E5%A5%97%E8%A3%85%E5%85%B15%E5%86%8C.html?dsource=mostpopular
+        - generic [ref=e169]:
+          - link "亲密关系 (第6版) = Intimate Relationship [美] 罗兰・米勒 (Rowland S. Miller) 著 ; 王伟平 译 Downloaded":
+            - /url: /book/o92vMKvR9K/%E4%BA%B2%E5%AF%86%E5%85%B3%E7%B3%BB-%E7%AC%AC6%E7%89%88-intimate-relationship.html?dsource=mostpopular
+            - generic "亲密关系 (第6版) = Intimate Relationship" [ref=e170] [cursor=pointer]:
+              - generic "亲密关系 (第6版) = Intimate Relationship" [ref=e713]:
+                - generic [ref=e714]:
+                  - generic [ref=e719]: 亲密关系 (第6版) = Intimate Relationship
+                  - generic [ref=e720]: "[美] 罗兰・米勒 (Rowland S. Miller) 著 ; 王伟平 译"
+                - img [ref=e724]
+                - generic:
+                  - generic: Downloaded
+                - link [ref=e725]:
+                  - /url: /book/o92vMKvR9K/%E4%BA%B2%E5%AF%86%E5%85%B3%E7%B3%BB-%E7%AC%AC6%E7%89%88-intimate-relationship.html?dsource=mostpopular
+        - generic [ref=e171]:
+          - link "明朝那些事儿（图文增补版） 当年明月 Downloaded":
+            - /url: /book/n97JN1kWD5/%E6%98%8E%E6%9C%9D%E9%82%A3%E4%BA%9B%E4%BA%8B%E5%84%BF%E5%9B%BE%E6%96%87%E5%A2%9E%E8%A1%A5%E7%89%88.html?dsource=mostpopular
+            - generic "明朝那些事儿（图文增补版）" [ref=e172] [cursor=pointer]:
+              - generic "明朝那些事儿（图文增补版）" [ref=e726]:
+                - generic [ref=e727]:
+                  - generic [ref=e732]: 明朝那些事儿（图文增补版）
+                  - generic [ref=e733]: 当年明月
+                - img [ref=e737]
+                - generic:
+                  - generic: Downloaded
+                - link [ref=e738]:
+                  - /url: /book/n97JN1kWD5/%E6%98%8E%E6%9C%9D%E9%82%A3%E4%BA%9B%E4%BA%8B%E5%84%BF%E5%9B%BE%E6%96%87%E5%A2%9E%E8%A1%A5%E7%89%88.html?dsource=mostpopular
+        - generic [ref=e173]:
+          - link "平凡的世界 路遥 Downloaded":
+            - /url: /book/NOGeB7vqDQ/%E5%B9%B3%E5%87%A1%E7%9A%84%E4%B8%96%E7%95%8C.html?dsource=mostpopular
+            - generic "平凡的世界" [ref=e174] [cursor=pointer]:
+              - generic "平凡的世界" [ref=e739]:
+                - generic [ref=e740]:
+                  - generic [ref=e745]: 平凡的世界
+                  - generic [ref=e746]: 路遥
+                - img [ref=e750]
+                - generic:
+                  - generic: Downloaded
+                - link [ref=e751]:
+                  - /url: /book/NOGeB7vqDQ/%E5%B9%B3%E5%87%A1%E7%9A%84%E4%B8%96%E7%95%8C.html?dsource=mostpopular
+        - generic [ref=e175]:
+          - link "万历十五年 (增订本) = 1587, A Year of No Significance 黄仁宇 Downloaded":
+            - /url: /book/PD3R05nK8k/%E4%B8%87%E5%8E%86%E5%8D%81%E4%BA%94%E5%B9%B4-%E5%A2%9E%E8%AE%A2%E6%9C%AC-1587-a-year-of-no-significance.html?dsource=mostpopular
+            - generic "万历十五年 (增订本) = 1587, A Year of No Significance" [ref=e176] [cursor=pointer]:
+              - generic "万历十五年 (增订本) = 1587, A Year of No Significance" [ref=e752]:
+                - generic [ref=e753]:
+                  - generic [ref=e758]: 万历十五年 (增订本) = 1587, A Year of No Significance
+                  - generic [ref=e759]: 黄仁宇
+                - img [ref=e763]
+                - generic:
+                  - generic: Downloaded
+                - link [ref=e764]:
+                  - /url: /book/PD3R05nK8k/%E4%B8%87%E5%8E%86%E5%8D%81%E4%BA%94%E5%B9%B4-%E5%A2%9E%E8%AE%A2%E6%9C%AC-1587-a-year-of-no-significance.html?dsource=mostpopular
+        - generic [ref=e177]:
+          - link "阿加莎·克里斯蒂侦探小说大全集（全85册） 阿加莎·克里斯蒂 Downloaded":
+            - /url: /book/ND4rGLWkO6/%E9%98%BF%E5%8A%A0%E8%8E%8E%E5%85%8B%E9%87%8C%E6%96%AF%E8%92%82%E4%BE%A6%E6%8E%A2%E5%B0%8F%E8%AF%B4%E5%A4%A7%E5%85%A8%E9%9B%86%E5%85%A885%E5%86%8C.html?dsource=mostpopular
+            - generic "阿加莎·克里斯蒂侦探小说大全集（全85册）" [ref=e178] [cursor=pointer]:
+              - generic "阿加莎·克里斯蒂侦探小说大全集（全85册）" [ref=e765]:
+                - generic [ref=e766]:
+                  - generic [ref=e771]: 阿加莎·克里斯蒂侦探小说大全集（全85册）
+                  - generic [ref=e772]: 阿加莎·克里斯蒂
+                - img [ref=e776]
+                - generic:
+                  - generic: Downloaded
+                - link [ref=e777]:
+                  - /url: /book/ND4rGLWkO6/%E9%98%BF%E5%8A%A0%E8%8E%8E%E5%85%8B%E9%87%8C%E6%96%AF%E8%92%82%E4%BE%A6%E6%8E%A2%E5%B0%8F%E8%AF%B4%E5%A4%A7%E5%85%A8%E9%9B%86%E5%85%A885%E5%86%8C.html?dsource=mostpopular
+        - generic [ref=e179]:
+          - link "时间游戏 周洛华 Downloaded":
+            - /url: /book/o92E3RW1DK/%E6%97%B6%E9%97%B4%E6%B8%B8%E6%88%8F.html?dsource=mostpopular
+            - generic "时间游戏" [ref=e180] [cursor=pointer]:
+              - generic "时间游戏" [ref=e778]:
+                - generic [ref=e779]:
+                  - generic [ref=e784]: 时间游戏
+                  - generic [ref=e785]: 周洛华
+                - img [ref=e789]
+                - generic:
+                  - generic: Downloaded
+                - link [ref=e790]:
+                  - /url: /book/o92E3RW1DK/%E6%97%B6%E9%97%B4%E6%B8%B8%E6%88%8F.html?dsource=mostpopular
+      - generic [ref=e792] [cursor=pointer]:
+        - generic [ref=e793]:
+          - generic: 加载更多
+        - generic [ref=e794]: 
+        - img [ref=e795]
+  - generic [ref=e184]:
+    - generic [ref=e185]:
+      - figure "— Carlos María Domínguez" [ref=e187]:
+        - blockquote [ref=e188]:
+          - text: “
+          - paragraph [ref=e189]: To build up a library is to create a life. It’s never just a random collection of books.
+          - text: ”
+        - generic [ref=e190]: — Carlos María Domínguez
+      - list [ref=e192]:
+        - listitem [ref=e193]:
+          - link " 官方途径" [ref=e194] [cursor=pointer]:
+            - /url: https://x.com/Z_Lib_official
+            - generic [ref=e195]: 
+            - text: 官方途径
+        - listitem [ref=e196]:
+          - link "" [ref=e197] [cursor=pointer]:
+            - /url: ""
+            - generic [ref=e198]: 
+        - listitem [ref=e199]:
+          - link "" [ref=e200] [cursor=pointer]:
+            - /url: https://mastodon.social/@Z_Lib_official
+            - generic [ref=e201]: 
+      - generic [ref=e202]:
+        - link [ref=e796] [cursor=pointer]:
+          - /url: /z-access#desktop_app_tab
+          - article [ref=e797]:
+            - img "Z-Library Desktop Launcher" [ref=e798]
+            - generic [ref=e203]: Z-Library
+        - link [ref=e799] [cursor=pointer]:
+          - /url: /z-access#useful_link_tab
+          - article [ref=e800]:
+            - img "Tor version" [ref=e801]
+            - generic [ref=e204]: Z-Library
+    - generic [ref=e205]:
+      - generic [ref=e206]:
+        - generic [ref=e207]: Z-Library
+        - list [ref=e208]:
+          - listitem [ref=e209]:
+            - link "博客" [ref=e210] [cursor=pointer]:
+              - /url: /blog
+          - listitem [ref=e211]:
+            - link "Z-Access" [ref=e212] [cursor=pointer]:
+              - /url: https://zh.library-access.sk
+          - listitem [ref=e213]:
+            - link "我们的任务" [ref=e214] [cursor=pointer]:
+              - /url: /mission
+          - listitem [ref=e215]:
+            - link "分享您的故事" [ref=e216] [cursor=pointer]:
+              - /url: /testimonials
+          - listitem [ref=e217]:
+            - link "Support us" [ref=e218] [cursor=pointer]:
+              - /url: https://www.change.org/zlibrary2023
+          - listitem [ref=e219]:
+            - link "机构支持" [ref=e220] [cursor=pointer]:
+              - /url: /request-help
+          - listitem [ref=e221]:
+            - link "支持作者" [ref=e222] [cursor=pointer]:
+              - /url: /promotion/books
+          - listitem [ref=e223]:
+            - link "LibTalks" [ref=e224] [cursor=pointer]:
+              - /url: https://lib-talk.io
+      - generic [ref=e225]:
+        - generic [ref=e226]: 帮助
+        - list [ref=e227]:
+          - listitem [ref=e228]:
+            - link "DMCA" [ref=e229] [cursor=pointer]:
+              - /url: /dmca
+          - listitem [ref=e230]:
+            - link "Terms" [ref=e231] [cursor=pointer]:
+              - /url: /tos
+          - listitem [ref=e232]:
+            - link "FAQ" [ref=e233] [cursor=pointer]:
+              - /url: /faq
+    - generic [ref=e234]:
+      - generic [ref=e235]:
+        - img "Z-Library" [ref=e803]
+        - generic [ref=e236]:
+          - link "Z-Library" [ref=e237] [cursor=pointer]:
+            - /url: https://z-library.sk
+          - text: Since 2009
+        - link "support@z-lib.fm" [ref=e239] [cursor=pointer]:
+          - /url: "mailto: support@z-lib.fm"
+      - generic [ref=e805] [cursor=pointer]:
+        - generic [ref=e806]: 
+        - generic [ref=e807]: 中文
+  - generic:
+    - img
+    - generic: 

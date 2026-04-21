@@ -1,0 +1,17 @@
+schema: spec-driven
+
+context: |
+  Tech stack: Python 3.11+, Playwright, MCP, SMTP
+  Project: ZLibrary2KindleSkill — Local MCP that searches Z-Library, downloads books (EPUB > PDF), and sends to Kindle email
+  Session persistence: ~/.cache/zlibrary2kindle/session.json
+  Download dir: /tmp/zlibrary2kindle/downloads/
+  HTTP client: httpx available for non-browser HTTP requests
+  ZLibrary domain: https://zh.zlib.li (Chinese regional variant)
+  SMTP: Gmail with App Password on port 587
+  Testing: pytest, 10 tests passing
+
+rules:
+  spec:
+    - Document verified DOM selectors (not assumptions)
+    - Include CDN redirect chain for download flows
+    - Document gotchas discovered from real browser testing

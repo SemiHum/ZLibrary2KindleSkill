@@ -1,0 +1,455 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4] [cursor=pointer]: 
+    - generic [ref=e6] [cursor=pointer]: 
+    - generic [ref=e8] [cursor=pointer]: 
+    - generic [ref=e10] [cursor=pointer]: 
+    - generic [ref=e12] [cursor=pointer]: 
+    - generic [ref=e14] [cursor=pointer]: 
+    - generic [ref=e16] [cursor=pointer]: 
+  - navigation [ref=e19]:
+    - generic [ref=e20]:
+      - link "Z-Library Home" [ref=e21] [cursor=pointer]:
+        - /url: /
+        - text: Z-Library Home  
+      - link "我的图书馆" [ref=e22] [cursor=pointer]:
+        - /url: /profile#tags
+        - text: 我的图书馆  
+    - generic [ref=e26] [cursor=pointer]:
+      - generic [ref=e27]: 
+      - generic [ref=e28]: 中文
+    - link "捐款" [ref=e31] [cursor=pointer]:
+      - /url: /how-to-donate
+    - generic [ref=e32]:
+      - generic [ref=e34] [cursor=pointer]: 
+      - generic:
+        - generic:
+          - generic
+    - generic [ref=e42] [cursor=pointer]:
+      - generic [ref=e44]: 
+      - generic [ref=e45]: 
+      - generic [ref=e46]: 
+    - link "登录" [ref=e48] [cursor=pointer]:
+      - /url: /login?redirectUrl=https%253A%252F%252Fzh.zlib.li%252Fbook%252FLaOBY1o791%252Fpython-python-mastery-a-code-like-a-pro-guide-for-python-beginners-python-programming-programm.html
+    - generic [ref=e49]:
+      - generic [ref=e51] [cursor=pointer]: 
+      - text:                         
+  - generic [ref=e54]:
+    - generic [ref=e55]:
+      - generic [ref=e56]:
+        - link [ref=e57] [cursor=pointer]:
+          - /url: /
+        - 'heading "Python: Python Mastery. \"A Code like a Pro\" Guide…" [level=2] [ref=e58]'
+      - list [ref=e60]:
+        - listitem [ref=e61]:
+          - link "Main" [ref=e62] [cursor=pointer]:
+            - /url: /
+          - text: /
+        - listitem [ref=e63]:
+          - link "Computers - Programming" [ref=e64] [cursor=pointer]:
+            - /url: /category/198/Computers-Programming
+          - text: /
+        - listitem [ref=e65]: "Python: Python Mastery. \"A Code…"
+    - generic [ref=e67]:
+      - 'generic "Python: Python Mastery. \"A Code like a Pro\" Guide for Python Beginners (Python Programming, Programming For Beginners, Machine Learning, Informatics, Learn ... Fast, Crash Course,(FREE BONUS BOOK))" [ref=e69]':
+        - 'generic "Python: Python Mastery." [ref=e70]':
+          - generic [ref=e71]
+          - img [ref=e79] [cursor=pointer]
+          - generic [ref=e80] [cursor=pointer]: Mark as downloaded
+          - generic
+      - generic [ref=e81]:
+        - 'heading "Python: Python Mastery. \"A Code like a Pro\" Guide for Python Beginners (Python Programming, Programming For Beginners, Machine Learning, Informatics, Learn ... Fast, Crash Course,(FREE BONUS BOOK))" [level=1] [ref=e82]'
+        - link "Jonathan Bates" [ref=e84] [cursor=pointer]:
+          - /url: /author/Jonathan Bates
+        - generic [ref=e86]:
+          - generic [ref=e87]
+          - generic:  
+        - generic [ref=e115]:
+          - generic [ref=e116] [cursor=pointer]: 关于书籍
+          - generic [ref=e117] [cursor=pointer]: 评论（）
+        - generic [ref=e119]:
+          - generic [ref=e120]
+          - generic [ref=e127]
+        - text: 
+    - text:    
+    - generic [ref=e152]:
+      - heading "您可能会感兴趣" [level=2] [ref=e154]
+      - generic [ref=e156]:
+        - generic [ref=e157]:
+          - 'link "Python for Data Analysis: A Basic Programming Crash Course to Learn Python Data Science Essential Tools, Pandas, and Numpy with Questions and Answer from Beginners to Advanced Oscar Scratch Downloaded"':
+            - /url: /book/K8ebQWY4Dj/python-for-data-analysis-a-basic-programming-crash-course-to-learn-python-data-science-essential-to.html?dsource=recommend
+        - generic [ref=e170]:
+          - 'link "Python Beginner To Pro: Python Tutorial, File Handling, Python NumPy, Python Matplotlib, Python SciPy, Machine Learning, Python MySQL,Python MySQL, Python Reference, Module Reference, Python Examples KUMAR, N KRISHNA Downloaded"':
+            - /url: /book/AOMaQwQrOe/python-beginner-to-pro-python-tutorial-file-handling-python-numpy-python-matplotlib-python-scip.html?dsource=recommend
+        - generic [ref=e183]:
+          - link "Python Notes for Professionals GoalKicker.com Downloaded":
+            - /url: /book/aOBR0oqdO1/python-notes-for-professionals.html?dsource=recommend
+        - generic [ref=e196]:
+          - 'link "Python: For Beginners: A Crash Course Guide To Learn Python in 1 Week (coding, programming, web-programming, programmer) Needham, Timothy C;Language, Python(Introduction) Downloaded"':
+            - /url: /book/nORjRq46OE/python-for-beginners-a-crash-course-guide-to-learn-python-in-1-week-coding-programming-webprog.html?dsource=recommend
+        - generic [ref=e209]:
+          - 'link "Python Algorithms: ( A Complete Guide to Learn Python for Data Analysis, Machine Learning, and Coding from Scratch) Scratch, Eric; Scratch, Michael Downloaded"':
+            - /url: /book/pOwYm4RgDA/python-algorithms-a-complete-guide-to-learn-python-for-data-analysis-machine-learning-and-codin.html?dsource=recommend
+        - generic [ref=e224]:
+          - 'link "Python For Beginners: A Practical Guide For The People Who Want to Learn Python The Right and Simple Way John Snowden Downloaded"':
+            - /url: /book/NOGE00ppDQ/python-for-beginners-a-practical-guide-for-the-people-who-want-to-learn-python-the-right-and-simple.html?dsource=recommend
+        - generic [ref=e239]:
+          - 'link "Learn Python Programming: The Comprehensive Guide to Learn and Apply Python by learning coding best practices and advanced programming concepts. James Herron Downloaded"':
+            - /url: /book/Y8NNj0bP8Q/learn-python-programming-the-comprehensive-guide-to-learn-and-apply-python-by-learning-coding-best.html?dsource=recommend
+        - generic [ref=e254]:
+          - 'link "Programming: 5 Books in 1: Learn Python, JavaScript, C++, C#, and SQL Quickly Code Quickly [Quickly, Code] Downloaded"':
+            - /url: /book/K9KEelYv8d/programming-5-books-in-1-learn-python-javascript-c-c-and-sql-quickly.html?dsource=recommend
+        - generic [ref=e269]:
+          - link "Advanced JAVA And PYTHON Interview Questions Andrew Flintoff Downloaded":
+            - /url: /book/NOGeVkvoDQ/advanced-java-and-python-interview-questions.html?dsource=recommend
+        - generic [ref=e284]:
+          - 'link "PYTHON Examples: Coding Exercises, Coding Interview Ray Yao Downloaded"':
+            - /url: /book/NOGeVxp3DQ/python-examples-coding-exercises-coding-interview.html?dsource=recommend
+        - generic [ref=e299]:
+          - 'link "Python Workbook: Exercises For Beginners With Solutions Guides, Tech Downloaded"':
+            - /url: /book/pOwRYe439A/python-workbook-exercises-for-beginners-with-solutions.html?dsource=recommend
+        - generic [ref=e314]:
+          - 'link "Bible of Python Programming: A Complete Step By Step Guide to Learn Python Programming ( Crash Course With Hands-On Projects ) Robert Matthew Downloaded"':
+            - /url: /book/1DQn7e479y/bible-of-python-programming-a-complete-step-by-step-guide-to-learn-python-programming-crash-cours.html?dsource=recommend
+        - generic [ref=e329]:
+          - 'link "The Python Bible 7 in 1: Volumes One To Seven (Beginner, Intermediate, Data Science, Machine Learning, Finance, Neural Networks, Computer Vision) Dedov, Florian Downloaded"':
+            - /url: /book/P9XWkjERDL/the-python-bible-7-in-1-volumes-one-to-seven-beginner-intermediate-data-science-machine-learnin.html?dsource=recommend
+        - generic [ref=e344]:
+          - 'link "Python 3 books in 1 : Python basics for Beginners + Python Automation Techniques And Web Scraping + Python For Data Science And Machine Learning Andy Vickler Downloaded"':
+            - /url: /book/yDyJLjZQ9J/python-3-books-in-1-python-basics-for-beginners-python-automation-techniques-and-web-scraping.html?dsource=recommend
+        - generic [ref=e359]:
+          - 'link "Web API Development with Python: A Beginner''s Guide using Flask and FastAPI Rehan Haider Downloaded"':
+            - /url: /book/ZOE1NxpnOP/web-api-development-with-python-a-beginners-guide-using-flask-and-fastapi.html?dsource=recommend
+        - generic [ref=e374]:
+          - link "77 Python Advanced Programming Exercises Edcorner Learning Downloaded":
+            - /url: /book/NOG4rgNo8Q/77-python-advanced-programming-exercises.html?dsource=recommend
+        - generic [ref=e389]:
+          - 'link "The Python Bible 7 in 1: Volumes One To Seven (Beginner, Intermediate, Data Science, Machine Learning, Finance, Neural Networks, Computer Vision) Dedov, Florian Downloaded"':
+            - /url: /book/a91J2KLqOd/the-python-bible-7-in-1-volumes-one-to-seven-beginner-intermediate-data-science-machine-learnin.html?dsource=recommend
+        - generic [ref=e404]:
+          - 'link "PYTHON: Learn Coding Programs with Python Programming and Master Data Analysis & Analytics, Data Science and Machine Learning with the Complete Python for Beginners Crash Course - 4 Books in 1 Academy, Tech Ed Downloaded"':
+            - /url: /book/eDavoLEg9Y/python-learn-coding-programs-with-python-programming-and-master-data-analysis-analytics-data-sci.html?dsource=recommend
+        - generic [ref=e419]:
+          - link "Python Jack Fellers Downloaded":
+            - /url: /book/K9KLZ7KjOd/python.html?dsource=recommend
+        - generic [ref=e434]:
+          - link "Python for Beginners Python_for_Beginners_-_October_2023 Downloaded":
+            - /url: /book/kDPEX7bg9m/python-for-beginners.html?dsource=recommend
+        - generic [ref=e449]:
+          - link "C++ & Python for Beginners - 17th Edition unknown Downloaded":
+            - /url: /book/pOwJMbyx9A/c-python-for-beginners-17th-edition.html?dsource=recommend
+        - generic [ref=e464]:
+          - 'link "A Python Book: Beginning Python, Advanced Python, and Python Exercises Dave Kuhlman Downloaded"':
+            - /url: /book/L1DQAZxzDy/a-python-book-beginning-python-advanced-python-and-python-exercises.html?dsource=recommend
+        - generic [ref=e479]:
+          - link "Treading on Python Volume 2 - Intermediate Python Matt Harrison Downloaded":
+            - /url: /book/VPD3mgrKOk/treading-on-python-volume-2-intermediate-python.html?dsource=recommend
+        - generic [ref=e494]:
+          - link "Python Programming. Python Programming for Beginners, Python Programming for Intermediates Adam Stewart Downloaded":
+            - /url: /book/2w9paP4LOb/python-programming-python-programming-for-beginners-python-programming-for-intermediates.html?dsource=recommend
+        - generic [ref=e509]:
+          - 'link "Real Python: Python Programming By Example Heisler F. Downloaded"':
+            - /url: /book/yEOo3jwgOd/real-python-python-programming-by-example.html?dsource=recommend
+        - generic [ref=e524]:
+          - 'link "Python: Learn Web Scraping with Python In A DAY! : The Ultimate Crash Course to Learning the Basics of Web Scraping with Python In No Time Acodemy Downloaded"':
+            - /url: /book/yEOo3NjYOd/python-learn-web-scraping-with-python-in-a-day-the-ultimate-crash-course-to-learning-the-basics.html?dsource=recommend
+        - generic [ref=e539]:
+          - 'link "Python: Crash Course - The Ultimate Beginner''s Course to Learning Python Programming in Under 12 Hours Eprogramy; Python Downloaded"':
+            - /url: /book/xK8eA2k28j/python-crash-course-the-ultimate-beginners-course-to-learning-python-programming-in-under-12-hou.html?dsource=recommend
+        - generic [ref=e554]:
+          - link "Machine Learning for Absolute Beginners Theobald, Oliver Downloaded":
+            - /url: /book/EkDPndxgOm/machine-learning-for-absolute-beginners.html?dsource=recommend
+        - generic [ref=e569]:
+          - 'link "Python: Python Mastery. \"A Code like a Pro\" Guide for Python Beginners (Python Programming, Programming For Beginners, Machine Learning, Informatics, Learn ... Fast, Crash Course,(FREE BONUS BOOK)) Bates, Jonathan Downloaded"':
+            - /url: /book/aNOGYPBXDQ/python-python-mastery-a-code-like-a-pro-guide-for-python-beginners-python-programming-programm.html?dsource=recommend
+        - generic [ref=e584]:
+          - 'link "Machine Learning For Beginners: Algorithms, Decision Tree & Random Forest Introduction William Sullivan Downloaded"':
+            - /url: /book/gJDAYxjQDA/machine-learning-for-beginners-algorithms-decision-tree-random-forest-introduction.html?dsource=recommend
+        - generic [ref=e599]:
+          - link "Python Notes for Professionals Goal Kicker Downloaded":
+            - /url: /book/EkDPjj0mOm/python-notes-for-professionals.html?dsource=recommend
+        - generic [ref=e614]:
+          - 'link "Java: The Ultimate Guide to Learn Java Programming and Computer Hacking (java for beginners, java for dummies, java apps, hacking) (HTML, Javascript, Programming, Developers, Coding, CSS, PHP Book 2) Peter Hoffman [Hoffman, Peter] Downloaded"':
+            - /url: /book/oLOmKoMkDa/java-the-ultimate-guide-to-learn-java-programming-and-computer-hacking-java-for-beginners-java-fo.html?dsource=recommend
+        - generic [ref=e629]:
+          - 'link "Python: The Complete Python Quickstart Guide (For Beginner’s) (Python, Python Programming, Python for Dummies, Python for Beginners) Life-Stule Academy 已下载"':
+            - /url: /book/lz9lP30p9y/python-the-complete-python-quickstart-guide-for-beginners-python-python-programming-python-fo.html?dsource=recommend
+        - generic [ref=e644]:
+          - 'link "Python: 4 Books in 1: Beginner''s Guide + Tips and Tricks + Best Practices + Advanced Guide to Programming Code with Python Charlie Masterson 已下载"':
+            - /url: /book/PD3MvJPPOk/python-4-books-in-1-beginners-guide-tips-and-tricks-best-practices-advanced-guide-to-progra.html?dsource=recommend
+        - generic [ref=e659]:
+          - 'link "Illustrated Guide to Python 3: A Complete Walkthrough of Beginning Python with Unique Illustrations Showing how Python Really Works Matt Harrison 已下载"':
+            - /url: /book/AOL63adqDR/illustrated-guide-to-python-3-a-complete-walkthrough-of-beginning-python-with-unique-illustrations.html?dsource=recommend
+        - generic [ref=e674]:
+          - 'link "Hacking: Hacking With Python - The Complete Beginner''s Course to Learn Ethical Hacking With Python in 7 Clear-Cut Lessons - Including Dozens of Practical Examples & Exercises (Hacking Series Book 1) Alphy Books; Hacking 已下载"':
+            - /url: /book/z9l14zY5Oy/hacking-hacking-with-python-the-complete-beginners-course-to-learn-ethical-hacking-with-python-i.html?dsource=recommend
+        - generic [ref=e689]:
+          - 'link "Python Workbook: Learn How to Quickly and Effectively Program with Exercises, Projects, and Solutions Programming Languages Academy 已下载"':
+            - /url: /book/mDbr7d44DA/python-workbook-learn-how-to-quickly-and-effectively-program-with-exercises-projects-and-solution.html?dsource=recommend
+        - generic [ref=e704]:
+          - 'link "Python Programming For Beginners: The Beginner’s Guide to Learning the Basics of Python. Tips and Tricks to Master Programming Quickly with Practical Examples Herron, James 已下载"':
+            - /url: /book/aOBa6mra91/python-programming-for-beginners-the-beginners-guide-to-learning-the-basics-of-python-tips-and-tr.html?dsource=recommend
+        - generic [ref=e719]:
+          - 'link "PYTHON FOR BEGINNERS: A Crash Course Guide for Machine Learning and Web Programming. Learn a Computer Language in Easy Steps with Coding Exercises. Test, Jason 已下载"':
+            - /url: /book/p9zyGbJYDZ/python-for-beginners-a-crash-course-guide-for-machine-learning-and-web-programming-learn-a-compute.html?dsource=recommend
+        - generic [ref=e734]:
+          - 'link "Machine Learning for Beginners: The Ultimate Guide to Learn and Understand Machine Learning – A Practical Approach to Master Machine Learning to Improve and Increase Business Results Coen, Anderson 已下载"':
+            - /url: /book/nORd5LKlDE/machine-learning-for-beginners-the-ultimate-guide-to-learn-and-understand-machine-learning-a-prac.html?dsource=recommend
+        - generic [ref=e749]:
+          - 'link "Programming for Beginners 2 Books in 1: Linux for Beginners SQL for Beginners Matthew Python 已下载"':
+            - /url: /book/Y8Nn1llb8Q/programming-for-beginners-2-books-in-1-linux-for-beginners-sql-for-beginners.html?dsource=recommend
+        - generic [ref=e764]:
+          - 'link "Learn Python: The Crash Course for Beginners to Learn Python Coding Well in 1 Week with Hands-On Exercises Bresler, Daniel 已下载"':
+            - /url: /book/K8ebQnBRDj/learn-python-the-crash-course-for-beginners-to-learn-python-coding-well-in-1-week-with-handson-exe.html?dsource=recommend
+      - generic [ref=e781] [cursor=pointer]:
+        - generic [ref=e782]:
+          - generic: 加载更多
+        - generic [ref=e783]: 
+        - img [ref=e784]
+    - generic [ref=e786]:
+      - heading "关联书单" [level=2] [ref=e787]
+      - generic [ref=e791]:
+        - generic [ref=e793]:
+          - 'link "Python Programming for Beginners: An Introduction to the Python Computer Language and Computer Programming Jason Cannon 已下载 Python Succinctly Jason Cannon 已下载 How the Internet Really Works: An Illustrated Guide to Protocols, Privacy, Censorship, and Governance Article 19 (Author), Mallory Knodel (Contributor), Ulrike Uhlig (Contributor), Niels ten Oever (Contributor), Corinne Cath (Contributor) 已下载 Understanding the Digital World: What You Need to Know about Computers, the Internet, Privacy, and Security, Second Edition Brian W. Kernighan 已下载 Understanding the Digital World Brian W. Kernighan 已下载 The Practice of Programming Brian W. Kernighan, Rob Pike 已下载 Cracking the Coding Interview: 150 Programming Questions and Solutions Gayle Laakmann McDowell 已下载 Foundations of Programming - Building Better Software Karl Seguin 已下载 + 524 书籍 prog" [ref=e795] [cursor=pointer]':
+            - /url: /booklist/917232/9f71fa/prog.html
+          - link [ref=e919] [cursor=pointer]:
+            - /url: /booklist/533346/637c51/coding.html
+          - link [ref=e1043] [cursor=pointer]:
+            - /url: /booklist/1391837/f17934/python-programming.html
+          - 'link "Beginner’s Step-by-Step Coding Course: Learn Computer Programming the Easy Way Suefa Lee 已下载 Barron''s AP computer science : Levels A and AB Roselyn Teukolsky 已下载 AP Computer Science Principles Seth Reichelson 已下载 Barron''s AP Computer Science A Roselyn Teukolsky 已下载 Writing Your First Computer Program (CliffsNotes) Allen Wyatt 已下载 CliffsNotes Creating Web Pages with HTML David A. Crowder, Rhonda Crowder 已下载 5 Steps to a 5: AP Computer Science A 2021 Dean R. Johnson 已下载 Coding Interview, 1000 Questions & Answers: Including Examination of C#, C++, HTML, CSS, JQuery, JavaScript, JAVA, Linux, PHP, MySQL, Python, Visual Basic Courses Ray Yao 已下载 + 110 书籍 Computer Science & Coding" [ref=e1167] [cursor=pointer]':
+            - /url: /booklist/578036/5c9743/computer-science-coding.html
+          - 'link "Python for Data Analysis: Data Wrangling with pandas, NumPy, and Jupyter Wes McKinney 已下载 Building Python Web APIs with FastAPI: A fast-paced guide to building high-performance, robust web APIs Abdulazeez Abdulazeez Adeshina 已下载 Python for Data Science: A Hands-On Introduction Yuli Vasiliev 已下载 Python for Beginners - 11th Edition 2022 anonymous 已下载 Survival Analysis with Python Avishek Nag 已下载 Python Programming for Beginners: 2 Books in 1 - the Ultimate Step-By-Step Guide to Learn Python Programming Quickly With Practical Exercises Mark Reed 已下载 Python Data Science Handbook: Essential Tools for Working with Data, 2nd Edition Jake VanderPlas 已下载 Python Programming Made Easy for Dummies: Learning this Programming Language with Great Ease for Beginners Orwell Girard 已下载 + 417 书籍 Python Books" [ref=e1291] [cursor=pointer]':
+            - /url: /booklist/1780046/6b3f89/python-books.html
+          - 'link "Introductory methods of numerical analysis S.S. Sastry 已下载 Numerical methods: problems and solutions Mahinder Kumar Jain, S.R.K. Iyengar, R.K. Jain 已下载 Numerical recipes: the art of scientific computing William H. Press, Saul A. Teukolsky, William T. Vetterling, Brian P. Flannery 已下载 Numerical Analysis Using MATLAB and Excel Steven T. Karris 已下载 An Introduction to Numerical Methods and Analysis James F. Epperson 已下载 Solutions Manual to Accompany An Introduction to Numerical Methods and Analysis James F. Epperson 已下载 Matrix Analysis and Applied Linear Algebra & Solutions Manual Carl D. Meyer 已下载 Applied numerical linear algebra James W. Demmel 已下载 + 76 书籍 Numerical Analysis \\Analisis Numerico" [ref=e1415] [cursor=pointer]':
+            - /url: /booklist/821330/778705/numerical-analysis-analisis-numerico.html
+          - link "La bande à Picsou - Tome 1 Disney 已下载 Super picsou géant tome 194 livres picsou 已下载 Super Picsou Géant tome 197 livres picsou 已下载 Les trésors de Picsou (tome 15) Walt Disney 已下载 Picsou Magazine N 457 - Февраль 2010 [no author] 已下载 Picsou dans l’espace Disney Walt 已下载 Picsou et le Fantôme Disney Walt 已下载 Super Picsou Geant Magazine N 177 - Août - 2013 [no author] 已下载 + 50 书籍 Fun" [ref=e1539] [cursor=pointer]:
+            - /url: /booklist/1266111/37ab9e/fun.html
+          - 'link "How to Succeed with Women Ron Louis, David Copeland 已下载 Game: How To Meet, Attract, And Date Women. Roosh V 已下载 The Manual: What Women Want and How to Give It to Them W. Anton 已下载 The Pickup Artist: The New and Improved Art of Seduction Mystery, Chris Odom 已下载 What Women Want When They Test Men: How to Decode Female Behavior, Pass a Woman’s Tests, and Attract Women Through Authenticity Bruce Bryans 已下载 The Truth: An Uncomfortable Book About Relationships Neil Strauss 已下载 2021 Florida Real Estate Exam Prep Questions, Answers & Explanations: Study Guide to Passing the Sales Associate Real Estate License Exam Effortlessly Real Estate Exam Professionals Ltd. 已下载 30 Minutes Before Your Driving Test (30 Minutes) Edward Baker 已下载 + 35 书籍 Skill Improvement or Mastery" [ref=e1663] [cursor=pointer]':
+            - /url: /booklist/1289996/9820e4/skill-improvement-or-mastery.html
+          - 'link "100 Motivational Quotes To Read Journey B. Lee [Lee, Journey B.] 已下载 100 Interesting Facts About Nikola Tesla Journey B. Lee 已下载 100 Motivational Quotes To Read Journey B. Lee 已下载 The Manual: What Women Want and How to Give It to Them W. Anton 已下载 The Easy Peasy Way to Quit Porn: Painlessly Quit Porn Immediately Without Willpower Or Any Sense of Deprivation or Sacrifice Allen Carr; Hackauthor; Hackauthor² 已下载 The Art of Focus : Find Meaning, Reinvent Yourself & Create Your Ideal Future Dan Koe 已下载 The Complete Idiot''s Guide to Verbal Self-Defense Lillian J. Glass 已下载 How to Read People Like a Book: A Guide to Speed-Reading People, Understand Body Language and Emotions, Decode Intentions, and Connect Effortlessly James W Williams 已下载 + 992 书籍 MyBooks" [ref=e1787] [cursor=pointer]':
+            - /url: /booklist/2612612/03c40b/mybooks.html
+          - link [ref=e1911] [cursor=pointer]:
+            - /url: /booklist/1276879/b2840d/python.html
+          - 'link "Statistics, data mining, and machine learning in astronomy : a practical Python guide for the analysis of survey data Alexander Gray, Jacob T VanderPlas, Andrew J. Connolly, Željko Ivezić 已下载 Python Scripting For Computational Science Hans Petter Langtangen 已下载 A Student''s Guide to Python for Physical Modeling Jesse M. Kinder, Philip Nelson 已下载 Doing Math with Python: Use Programming to Explore Algebra, Statistics, Calculus, and More! Amit Saha 已下载 Numerical Methods in Physics with Python Alex Gezerlis 已下载 Computational Physics: Problem Solving with Python Rubin H. Landau, Manuel J P?ez, Cristian C. Bordeianu 已下载 Numerical Python: Scientific Computing and Data Science Applications with Numpy, SciPy and Matplotlib Robert Johansson 已下载 Computational Problems for Physics: With Guided Solutions Using Python Rubin H. Landau, Manuel Jose Paez 已下载 + 100 书籍 Estudos" [ref=e2035] [cursor=pointer]':
+            - /url: /booklist/786140/e6f498/estudos.html
+          - link [ref=e2159] [cursor=pointer]:
+            - /url: /booklist/2506251/062fe3/xxxi.html
+          - 'link "Information Dashboard Design: The Effective Visual Communication of Data Stephen Few 已下载 Microsoft Power BI Demystified: step by step guide on how to create interactive dashboard and reports using Power BI Elijah Falode 已下载 Mastering Microsoft Power BI Brett Powell 已下载 Supercharge Power BI: Power BI Is Better When You Learn to Write DAX Matt Allington 已下载 Extreme DAX: Take your Power BI and Microsoft data analytics skills to the next level Michiel Rozema, Henk Vlootman 已下载 Storytelling with Data Cole Nussbaumer Knaflic 已下载 DAX Patterns Russo, Marco; Ferrari, Alberto 已下载 DAX Cookbook ; Over 120 recipes to enhance your business with analytics, reporting, and business intelligence Greg Deckler 已下载 + 21 书籍 Power BI" [ref=e2283] [cursor=pointer]':
+            - /url: /booklist/1110355/dde9cb/power-bi.html
+          - link [ref=e2407] [cursor=pointer]:
+            - /url: /booklist/1103474/74be2d/python.html
+          - 'link "Learning Jupyter Dan Toomey 已下载 Python: Python Mastery. \"A Code like a Pro\" Guide for Python Beginners (Python Programming, Programming For Beginners, Machine Learning, Informatics, Learn ... Fast, Crash Course,(FREE BONUS BOOK)) Jonathan Bates 已下载 Python: For Beginners: A Crash Course Guide To Learn Python in 1 Week (coding, programming, web-programming, programmer) Needham, Timothy C;Language, Python(Introduction) 已下载 Advanced Guide to Python 3 Programming, 2nd John Hunt 已下载 Useful Python: Make your Life easier with practical Python techniques Stuart Langridge 已下载 Effective Python Brett Slatkin 已下载 Python-Based Data Structures and Algorithms Educohack Press 已下载 Python for Absolute Beginners Campesato, Oswald 已下载 + 27 书籍 Python" [ref=e2531] [cursor=pointer]':
+            - /url: /booklist/1438223/b024e7/python.html
+          - 'link "Make: Bluetooth: Bluetooth LE Projects with Arduino, Raspberry Pi, and Smartphones Alasdair Allan, Don Coleman, Sandeep Mistry 已下载 30 Arduino Projects for the Evil Genius Simon Monk 已下载 Hacking Electronics: Learning Electronics with Arduino and Raspberry Pi Simon Monk 已下载 Internet of Things Programming Projects: Build modern IoT solutions with the Raspberry Pi 3 and Python Colin Dow 已下载 Beginning Robotics with Raspberry Pi and Arduino: Using Python and OpenCV Jeff Cicolani 已下载 Getting Started with Sensors: Measure the World with Electronics, Arduino, and Raspberry Pi Kimmo Karvinen, Tero Karvinen 已下载 Practical Electronics for Inventors, Fourth Edition Paul Scherz, Simon Monk 已下载 Teach Yourself Electricity and Electronics Stan Gibilisco 已下载 + 39 书籍 Tech & Science" [ref=e2655] [cursor=pointer]':
+            - /url: /booklist/1075908/a877db/tech-science.html
+          - 'link "原则 瑞·达利欧, 刘波, 綦相 已下载 简单的逻辑学 [美] D·Q·麦克伦尼 已下载 资治通鉴全译本柏杨版 司马光, 柏杨 已下载 一读就上瘾的中国史 温伯陵 已下载 思考, 快与慢 = Thinking, Fast and Slow [美] 丹尼尔 · 卡尼曼 (Daniel Kahneman) 著 ; 李爱民, 何梦莹, 胡晓姣 译 已下载 沧浪之水 阎真 已下载 刻意练习：如何从新手到大师 安德斯·艾利克森（Anders Ericsson） & 罗伯特·普尔（Robert Pool） 已下载 非暴力沟通 = Nonviolent Communication: A Language of Life: Life-Changing Tools for Healthy Relationships [美] 马歇尔・卢森堡 (Marshall B. Rosenberg) 著 ; 阮胤华 译 已下载 + 53 书籍 2025" [ref=e2779] [cursor=pointer]':
+            - /url: /booklist/2632497/ac9701/2025.html
+          - link [ref=e2903] [cursor=pointer]:
+            - /url: /booklist/1109342/e2de37/software-engineering.html
+          - 'link "Thinking, Fast and Slow Daniel Kahneman 已下载 The Millionaire Next Door- The Surprising Secrets of America''s Wealthy Stanley Thomas J; Danko William D 已下载 UNSCRIPTED: Life, Liberty, and the Pursuit of Entrepreneurship MJ DeMarco 已下载 The Millionaire Fastlane - Crack the Code to Wealth and Live Rich for a Lifetime. MJ DeMarco 已下载 Leaders Eat Last Simon Sinek 已下载 Mindset: Changing The Way You Think To Fulfil Your Potential Carol S. Dweck 已下载 HBR 20-Minute Manager Boxed Set (10 Books) Harvard Business Review 已下载 The Business Book (Big Ideas Simply Explained) DK Publishing 已下载 + 8 书籍 Keeps" [ref=e3027] [cursor=pointer]':
+            - /url: /booklist/349994/f86705/keeps.html
+          - 'link "Mechatronics: Electronic Control Systems in Mechanical and Electrical Engineering, 6th Edition William Bolton 已下载 Coding Theory: Algorithms, Architectures, and Applications André Neubauer, Jürgen Freudenberger, Volker Kühn 已下载 30 Arduino Projects for the Evil Genius Simon Monk 已下载 Hacking Electronics: Learning Electronics with Arduino and Raspberry Pi Simon Monk 已下载 Introduction to Machine Learning with Python: A Guide for Data Scientists Andreas C. Müller, Sarah Guido 已下载 Internet of Things Programming Projects: Build modern IoT solutions with the Raspberry Pi 3 and Python Colin Dow 已下载 Beginning Robotics with Raspberry Pi and Arduino: Using Python and OpenCV Jeff Cicolani 已下载 Learn Python in One Day and Learn it Well Jamie Chan 已下载 + 16 书籍 Coding" [ref=e3151] [cursor=pointer]':
+            - /url: /booklist/1075919/fc9cff/coding.html
+          - 'link "Web前端开发最佳实践 (Web开发技术丛书) 党建 著 已下载 Web前端开发精品课 HTML与CSS进阶教程（异步图书） 莫振杰 已下载 Web前端开发精品课——HTML与CSS 基础教程（异步图书） 莫振杰 已下载 Web前端开发简明教程（HTML+CSS+JavaScript+jQuery） (工业和信息化“十三五”人才培养规划教材) 邓春晖 & 秦映波 已下载 标准集成电路数据手册 高速CMOS电路 电子工程手册编委会集成电路手册分编委员会编, 电子工程手册编委会, 集成电路手册分编委会编, 电子工程手册编委会, 集成电路手册分编委会, 电子工程手册编委会集成电路手册分编委员会编, 电子工程手册编委会集成电路手册分编委会, 电子工程手册编委员集成电路手册分编委会编, 电子工程手册编委员集成电路手册分编委会 已下载 超简单：用Python让Excel飞起来（零基础学python，用python实现办公自动化，让excel化繁为简，减少重复工作） 王秀文 & 郭明鑫 & 王宇韬 已下载 《Python编程之美：最佳实践指南》 Python 已下载 Python: Python Mastery. \"A Code like a Pro\" Guide for Python Beginners (Python Programming, Programming For Beginners, Machine Learning, Informatics, Learn ... Fast, Crash Course,(FREE BONUS BOOK)) Jonathan Bates 已下载 + 7 书籍 My Books" [ref=e3275] [cursor=pointer]':
+            - /url: /booklist/3235047/366e26/my-books.html
+          - 'link "Learning Scientific Programming With Python Christian Hill 已下载 Python: Python Mastery. \"A Code like a Pro\" Guide for Python Beginners (Python Programming, Programming For Beginners, Machine Learning, Informatics, Learn ... Fast, Crash Course,(FREE BONUS BOOK)) Jonathan Bates 已下载 The Fokker-Planck Equation: Methods of Solution and Applications Professor Dr. Hannes Risken (auth.) 已下载 Numerical methods : fundamentals and applications Gupta, Rajesh Kumar 已下载 new num" [ref=e3399] [cursor=pointer]':
+            - /url: /booklist/3155199/8d68d1/new-num.html
+          - 'link "Python for Kids: A Playful Introduction to Programming Jason R. Briggs 已下载 EXPLORE ESP32 MICROPYTHON: Python Coding, Arduino Coding, Raspberry Pi, ESP8266, IoT Projects, Android Application Projects Shiro , Akira 已下载 Python: Python Mastery. \"A Code like a Pro\" Guide for Python Beginners (Python Programming, Programming For Beginners, Machine Learning, Informatics, Learn ... Fast, Crash Course,(FREE BONUS BOOK)) Jonathan Bates 已下载 Python Basics: A Practical Introduction to Python 3 Real Python 已下载 Python Beginner To Pro: Python Tutorial, File Handling, Python NumPy, Python Matplotlib, Python SciPy, Machine Learning, Python MySQL,Python MySQL, Python Reference, Module Reference, Python Examples KUMAR, N KRISHNA 已下载 Python" [ref=e3464] [cursor=pointer]':
+            - /url: /booklist/3157642/9203e8/python.html
+          - 'link "Python: Python Mastery. \"A Code like a Pro\" Guide for Python Beginners (Python Programming, Programming For Beginners, Machine Learning, Informatics, Learn ... Fast, Crash Course,(FREE BONUS BOOK)) Jonathan Bates 已下载 Python_深度学习实战：75个有关神经网络建模、强化学习与迁移 Python_深度学习实战：75个有关神经网络建模、强化学习与迁移 已下载 《Python编程之美：最佳实践指南》 Python 已下载 Go语言从入门到精通 明日科技 编著 已下载 R语言数据分析从入门到精通 明日科技 编著 已下载 计算机" [ref=e3543] [cursor=pointer]':
+            - /url: /booklist/2933334/54aef4/%E8%AE%A1%E7%AE%97%E6%9C%BA.html
+          - link [ref=e3622] [cursor=pointer]:
+            - /url: /booklist/2585741/25be9b/python.html
+          - 'link "Python Basics: A Practical Introduction to Python 3 Real Python 已下载 Python编程：从入门到实践（第2版）（新版上线！！！！沿袭第1版讲解清晰透彻、循序渐进的特点，并全面升级！源代码文件+视频讲解+配套编程环境，零基础自学Python一本就够！）（图灵图书） 埃里克·马瑟斯 [埃里克·马瑟斯] 已下载 Python编程三剑客：Python编程从入门到实践+快速上手+极客编程 埃里克·马瑟斯 (Eric Matthes), Al Sweigart, Mahesh Venkitachalam 已下载 Python编程 : 从入门到实践 = Python Crash Course Eric Matthes 已下载 Python: Python Mastery. \"A Code like a Pro\" Guide for Python Beginners (Python Programming, Programming For Beginners, Machine Learning, Informatics, Learn ... Fast, Crash Course,(FREE BONUS BOOK)) Jonathan Bates 已下载 Python Michael Kofler 已下载 Python Jack Fellers 已下载 《Python编程之美：最佳实践指南》 Python 已下载 + 5 书籍 计算机" [ref=e3746] [cursor=pointer]':
+            - /url: /booklist/2884208/1310a6/%E8%AE%A1%E7%AE%97%E6%9C%BA.html
+          - 'link "Python for Kids: A Playful Introduction to Programming Jason R. Briggs 已下载 Making Games with Python & Pygame Albert Sweigart 已下载 Automate the Boring Stuff with Python: Practical Programming for Total Beginners Al Sweigart 已下载 Python All-In-One for Dummies John Shovic, Alan Simpson 已下载 Python: Python Mastery. \"A Code like a Pro\" Guide for Python Beginners (Python Programming, Programming For Beginners, Machine Learning, Informatics, Learn ... Fast, Crash Course,(FREE BONUS BOOK)) Jonathan Bates 已下载 Introduction to Python for the Computer and Data Sciences Paul Deitel, Paul J. Deitel, Harvey Deitel 已下载 Coding-Programming" [ref=e3870] [cursor=pointer]':
+            - /url: /booklist/386719/d986ac/codingprogramming.html
+          - 'link "Data Structures and Algorithms in C++ Adam Drozdek 已下载 Effective Modern C++: 42 Specific Ways to Improve Your Use of C++11 and C++14 Scott Meyers 已下载 C++ Crash Course: A Fast-Paced Introduction Josh Lospinoso 已下载 C++ Primer Plus：中文版（第六版） Stephen Prata 已下载 C++: The Ultimate Guide to Master C Programming Fast Robert Hoffman 已下载 C++ Gouvernelle Vincent 已下载 Let Us Python (3rd Ed.) Yashavant Kanetkar, Aditya Kanetkar 已下载 Let Us C (17th Ed.) SOLUTIONS: Authentic Solutions To Let US C Exercises Yashavant Kanetkar 已下载 + 12 书籍 my career, amen" [ref=e3963] [cursor=pointer]':
+            - /url: /booklist/2832984/291b27/my-career-amen.html
+          - 'link "Python Data Science Handbook Jake VanderPlas 已下载 Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython Wes McKinney 已下载 Python Basics: A Practical Introduction to Python 3 Real Python 已下载 Python Tricks - A Buffet of Awesome Python Features Dan Bader 已下载 Python 3 Tutorials Point 已下载 Python_Development_with_Large_Language_Models unknown 已下载 Python: Python Mastery. \"A Code like a Pro\" Guide for Python Beginners (Python Programming, Programming For Beginners, Machine Learning, Informatics, Learn ... Fast, Crash Course,(FREE BONUS BOOK)) Jonathan Bates 已下载 C++ & Python for Beginners - 17th Edition unknown 已下载 + 100 书籍 Python" [ref=e4087] [cursor=pointer]':
+            - /url: /booklist/2816220/0b55d5/python.html
+          - 'link "Python_深度学习实战：75个有关神经网络建模、强化学习与迁移 Python_深度学习实战：75个有关神经网络建模、强化学习与迁移 已下载 Python: Python Mastery. \"A Code like a Pro\" Guide for Python Beginners (Python Programming, Programming For Beginners, Machine Learning, Informatics, Learn ... Fast, Crash Course,(FREE BONUS BOOK)) Jonathan Bates 已下载 Python 3 Michael Weigend 已下载 Python_Development_with_Large_Language_Models unknown 已下载 Python 3 Tutorials Point 已下载 Python Paul Barry 已下载 C++ & Python for Beginners - 17th Edition unknown 已下载 Python Michael Kofler 已下载 + 81 书籍 Python Programming" [ref=e4211] [cursor=pointer]':
+            - /url: /booklist/2806007/e86247/python-programming.html
+        - generic:
+          - generic: 
+        - generic [ref=e4335] [cursor=pointer]: 
+    - heading "关键词" [level=2] [ref=e4336]
+    - generic [ref=e4338]:
+      - link "python" [ref=e4340] [cursor=pointer]:
+        - /url: /terms/python
+      - link "function" [ref=e4342] [cursor=pointer]:
+        - /url: /terms/function
+      - link "false" [ref=e4344] [cursor=pointer]:
+        - /url: /terms/false
+      - link "version" [ref=e4346] [cursor=pointer]:
+        - /url: /terms/version
+      - link "values" [ref=e4348] [cursor=pointer]:
+        - /url: /terms/values
+      - link "element" [ref=e4350] [cursor=pointer]:
+        - /url: /terms/element
+      - link "item" [ref=e4352] [cursor=pointer]:
+        - /url: /terms/item
+      - link "dictionary" [ref=e4354] [cursor=pointer]:
+        - /url: /terms/dictionary
+      - link "comprehension" [ref=e4356] [cursor=pointer]:
+        - /url: /terms/comprehension
+      - link "functions" [ref=e4358] [cursor=pointer]:
+        - /url: /terms/functions
+      - link "syntax" [ref=e4360] [cursor=pointer]:
+        - /url: /terms/syntax
+      - link "generator" [ref=e4362] [cursor=pointer]:
+        - /url: /terms/generator
+      - link "install" [ref=e4364] [cursor=pointer]:
+        - /url: /terms/install
+      - link "programming" [ref=e4366] [cursor=pointer]:
+        - /url: /terms/programming
+      - link "1numbers" [ref=e4368] [cursor=pointer]:
+        - /url: /terms/1numbers
+      - link "dict" [ref=e4370] [cursor=pointer]:
+        - /url: /terms/dict
+      - link "programs" [ref=e4372] [cursor=pointer]:
+        - /url: /terms/programs
+      - link "lambda" [ref=e4374] [cursor=pointer]:
+        - /url: /terms/lambda
+      - link "lists" [ref=e4376] [cursor=pointer]:
+        - /url: /terms/lists
+      - link "map" [ref=e4378] [cursor=pointer]:
+        - /url: /terms/map
+      - link "range" [ref=e4380] [cursor=pointer]:
+        - /url: /terms/range
+      - link "command" [ref=e4382] [cursor=pointer]:
+        - /url: /terms/command
+      - link "variables" [ref=e4384] [cursor=pointer]:
+        - /url: /terms/variables
+      - link "alice" [ref=e4386] [cursor=pointer]:
+        - /url: /terms/alice
+      - link "script" [ref=e4388] [cursor=pointer]:
+        - /url: /terms/script
+      - link "comprehensions" [ref=e4390] [cursor=pointer]:
+        - /url: /terms/comprehensions
+      - link "contains" [ref=e4392] [cursor=pointer]:
+        - /url: /terms/contains
+      - link "enumerate" [ref=e4394] [cursor=pointer]:
+        - /url: /terms/enumerate
+      - link "filter" [ref=e4396] [cursor=pointer]:
+        - /url: /terms/filter
+      - link "prints" [ref=e4398] [cursor=pointer]:
+        - /url: /terms/prints
+      - link "strings" [ref=e4400] [cursor=pointer]:
+        - /url: /terms/strings
+      - link "cleaner" [ref=e4402] [cursor=pointer]:
+        - /url: /terms/cleaner
+      - link "evaluated" [ref=e4404] [cursor=pointer]:
+        - /url: /terms/evaluated
+      - link "items" [ref=e4406] [cursor=pointer]:
+        - /url: /terms/items
+      - link "my_object" [ref=e4408] [cursor=pointer]:
+        - /url: /terms/my_object
+      - link "quotes" [ref=e4410] [cursor=pointer]:
+        - /url: /terms/quotes
+      - link "scripts" [ref=e4412] [cursor=pointer]:
+        - /url: /terms/scripts
+      - link "check" [ref=e4414] [cursor=pointer]:
+        - /url: /terms/check
+      - link "coding" [ref=e4416] [cursor=pointer]:
+        - /url: /terms/coding
+      - link "defined" [ref=e4418] [cursor=pointer]:
+        - /url: /terms/defined
+      - link "download" [ref=e4420] [cursor=pointer]:
+        - /url: /terms/download
+      - link "method" [ref=e4422] [cursor=pointer]:
+        - /url: /terms/method
+      - link "my_dict" [ref=e4424] [cursor=pointer]:
+        - /url: /terms/my_dict
+      - link "path" [ref=e4426] [cursor=pointer]:
+        - /url: /terms/path
+      - link "squares" [ref=e4428] [cursor=pointer]:
+        - /url: /terms/squares
+      - link "stuff" [ref=e4430] [cursor=pointer]:
+        - /url: /terms/stuff
+      - link "argument" [ref=e4432] [cursor=pointer]:
+        - /url: /terms/argument
+      - link "built" [ref=e4434] [cursor=pointer]:
+        - /url: /terms/built
+      - link "error" [ref=e4436] [cursor=pointer]:
+        - /url: /terms/error
+      - link "installation" [ref=e4438] [cursor=pointer]:
+        - /url: /terms/installation
+      - link "key" [ref=e4440] [cursor=pointer]:
+        - /url: /terms/key
+      - link "keys" [ref=e4442] [cursor=pointer]:
+        - /url: /terms/keys
+      - link "say_hello" [ref=e4444] [cursor=pointer]:
+        - /url: /terms/say_hello
+      - link "tuples" [ref=e4446] [cursor=pointer]:
+        - /url: /terms/tuples
+      - link "xrange" [ref=e4448] [cursor=pointer]:
+        - /url: /terms/xrange
+      - link "2squares" [ref=e4450] [cursor=pointer]:
+        - /url: /terms/2squares
+      - link "complex" [ref=e4452] [cursor=pointer]:
+        - /url: /terms/complex
+      - link "created" [ref=e4454] [cursor=pointer]:
+        - /url: /terms/created
+      - link "float" [ref=e4456] [cursor=pointer]:
+        - /url: /terms/float
+      - link "greeted" [ref=e4458] [cursor=pointer]:
+        - /url: /terms/greeted
+  - generic [ref=e4461]:
+    - generic [ref=e4462]:
+      - figure "— Carlos María Domínguez" [ref=e4464]:
+        - blockquote [ref=e4465]:
+          - text: “
+          - paragraph [ref=e4466]: To build up a library is to create a life. It’s never just a random collection of books.
+          - text: ”
+        - generic [ref=e4467]: — Carlos María Domínguez
+      - list [ref=e4469]:
+        - listitem [ref=e4470]:
+          - link " 官方途径" [ref=e4471] [cursor=pointer]:
+            - /url: https://x.com/Z_Lib_official
+        - listitem [ref=e4473]:
+          - link "" [ref=e4474] [cursor=pointer]:
+            - /url: ""
+        - listitem [ref=e4476]:
+          - link "" [ref=e4477] [cursor=pointer]:
+            - /url: https://mastodon.social/@Z_Lib_official
+      - generic [ref=e4479]:
+        - link [ref=e4480] [cursor=pointer]:
+          - /url: /z-access#desktop_app_tab
+          - article [ref=e4481]
+        - link [ref=e4484] [cursor=pointer]:
+          - /url: /z-access#useful_link_tab
+          - article [ref=e4485]
+    - generic [ref=e4488]:
+      - generic [ref=e4489]:
+        - generic [ref=e4490]: Z-Library
+        - list [ref=e4491]:
+          - listitem [ref=e4492]
+          - listitem [ref=e4494]
+          - listitem [ref=e4496]
+          - listitem [ref=e4498]
+          - listitem [ref=e4500]
+          - listitem [ref=e4502]
+          - listitem [ref=e4504]
+          - listitem [ref=e4506]
+      - generic [ref=e4508]:
+        - generic [ref=e4509]: 帮助
+        - list [ref=e4510]:
+          - listitem [ref=e4511]
+          - listitem [ref=e4513]
+          - listitem [ref=e4515]
+    - generic [ref=e4517]:
+      - generic [ref=e4518]:
+        - img "Z-Library" [ref=e4520]
+        - generic [ref=e4521]:
+          - link "Z-Library" [ref=e4522] [cursor=pointer]:
+            - /url: https://z-library.sk
+          - text: Since 2009
+        - link "support@z-lib.fm" [ref=e4524] [cursor=pointer]:
+          - /url: "mailto: support@z-lib.fm"
+      - generic [ref=e4527] [cursor=pointer]:
+        - generic [ref=e4528]: 
+        - generic [ref=e4529]: 中文
+  - generic:
+    - img
+    - generic: 
