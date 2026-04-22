@@ -1,7 +1,7 @@
 ---
 name: zlib2k-cli
 description: Search Z-Library for books, download them, and send to your Kindle.
-allowed-tools: Bash(zlib2k-cli:*) Bash(python:*) Bash(pip:*)
+allowed-tools: Bash(uvx:*) Bash(pip:*) Bash(python:*)
 ---
 
 # ZLibrary2Kindle
@@ -17,8 +17,12 @@ Search Z-Library for books, download (EPUB preferred), and send to your Kindle v
 ### Setup
 
 ```bash
-# Install
-pip install -e .
+# Simplest — no install needed
+uvx zlibrary2kindle --help
+
+# Or install locally
+pip install zlibrary2kindle
+z2k --help
 
 # Set environment variables
 export ZLIBRARY_EMAIL="your@email.com"
@@ -35,8 +39,8 @@ export SENDER_PASSWORD="xxxx xxxx xxxx xxxx"  # Gmail App Password
 Authenticate to ZLibrary. Session cookies are saved to `~/.cache/zlibrary2kindle/session.json` and reused automatically.
 
 ```bash
-zlib2k-cli login
-python -m src.cli login
+uvx zlibrary2kindle login
+# or after install: z2k login
 ```
 
 ### zlibrary_search
@@ -44,8 +48,8 @@ python -m src.cli login
 Search for books by title, author, ISBN, etc.
 
 ```bash
-zlib2k-cli search "Python programming"
-python -m src.cli search "随园食单" --limit 5
+uvx zlibrary2kindle search "Python programming"
+# or after install: z2k search "随园食单" --limit 5
 ```
 
 Returns: list of books with `book_id` for use in download.
@@ -55,8 +59,8 @@ Returns: list of books with `book_id` for use in download.
 Download a book by its `book_id` (from search results).
 
 ```bash
-zlib2k-cli download w8n2rz2N8Q
-python -m src.cli download <book_id>
+uvx zlibrary2kindle download w8n2rz2N8Q
+# or after install: z2k download <book_id>
 ```
 
 Files saved to `/tmp/zlibrary2kindle/downloads/`.
@@ -66,8 +70,8 @@ Files saved to `/tmp/zlibrary2kindle/downloads/`.
 Send a downloaded book to your Kindle.
 
 ```bash
-zlib2k-cli send /path/to/book.epub "Book Title"
-python -m src.cli send /path/to/book.epub "Book Title" --to your@kindle.com
+uvx zlibrary2kindle send /path/to/book.epub "Book Title"
+# or after install: z2k send /path/to/book.epub "Book Title" --to your@kindle.com
 ```
 
 File is deleted after sending.
@@ -76,17 +80,17 @@ File is deleted after sending.
 
 ```bash
 # 1. Login (once)
-zlib2k-cli login
+uvx zlibrary2kindle login
 
 # 2. Search
-zlib2k-cli search "随园食单"
+uvx zlibrary2kindle search "随园食单"
 # → [z9lRkJxQ8y] 随园食单 | [清]袁枚
 
 # 3. Download
-zlib2k-cli download z9lRkJxQ8y
+uvx zlibrary2kindle download z9lRkJxQ8y
 
 # 4. Send to Kindle
-zlib2k-cli send /tmp/zlibrary2kindle/downloads/随园食单.epub "随园食单"
+uvx zlibrary2kindle send /tmp/zlibrary2kindle/downloads/随园食单.epub "随园食单"
 ```
 
 ## MCP Mode

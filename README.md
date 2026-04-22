@@ -21,8 +21,15 @@ Search Z-Library books and send them to your Kindle via email. Supports both CLI
 
 ### 1. Install
 
+**Simplest — no install needed:**
 ```bash
-pip install -e .
+uvx zlibrary2kindle --help
+```
+
+**Or install locally:**
+```bash
+pip install zlibrary2kindle
+z2k --help
 ```
 
 ### 2. Configure credentials
@@ -55,54 +62,90 @@ Edit `mcp.json` and fill in the `env` block.
 ## Quick Start
 
 ```bash
-# 1. Login (once)
-python -m src.cli login
+# 1. Login (once) — use uvx directly
+uvx zlibrary2kindle login
 
 # 2. Search
-python -m src.cli search "Mo Yan"
+uvx zlibrary2kindle search "Harry Potter"
 
 # 3. Download (copy book_id from search results)
-python -m src.cli download <book_id>
+uvx zlibrary2kindle download <book_id>
 
 # 4. Send to Kindle
-python -m src.cli send /tmp/zlibrary2kindle/downloads/book.epub "Book Title"
+uvx zlibrary2kindle send /tmp/zlibrary2kindle/downloads/book.epub "Book Title"
+```
+
+Or after local install:
+```bash
+z2k login
+z2k search "Harry Potter"
+z2k download <book_id>
+z2k send /path/to/book.epub "Book Title"
 ```
 
 ## CLI Reference
 
 | Command | Description |
 |---------|-------------|
-| `python -m src.cli login` | Authenticate to ZLibrary. Session is saved automatically. |
-| `python -m src.cli search "query" --limit 10` | Search books. Returns `[book_id] title \| author`. |
-| `python -m src.cli download <book_id>` | Download book to `/tmp/zlibrary2kindle/downloads/`. |
-| `python -m src.cli send <file> "Title"` | Email file to Kindle. |
+| `uvx zlibrary2kindle login` | Authenticate to ZLibrary. Session is saved automatically. |
+| `uvx zlibrary2kindle search "query" --limit 10` | Search books. Returns `[book_id] title \| author`. |
+| `uvx zlibrary2kindle download <book_id>` | Download book to `/tmp/zlibrary2kindle/downloads/`. |
+| `uvx zlibrary2kindle send <file> "Title"` | Email file to Kindle. |
 
-> **Note**: If `zlib2k-cli` command is not found after install, use `python -m src.cli` instead.
+## MCP Integrations
 
-## Claude Code Skill
+Load as a local MCP server for AI-assisted book search and sending. Works with Claude Code, Cursor, and OpenClaw.
 
-Load as a Claude Code local MCP server for AI-assisted book search and sending:
+### Claude Code
 
 ```json
 // mcp.json
 {
   "mcpServers": {
     "zlibrary2kindle": {
-      "command": "python",
-      "args": ["-m", "src.server"]
+      "command": "uvx",
+      "args": ["zlibrary2kindle"]
     }
   }
 }
 ```
 
-Then you can ask Claude in natural language:
+### Cursor
+
+```json
+// ~/.cursor/mcp.json (global) or .cursor/mcp.json (project)
+{
+  "mcpServers": {
+    "zlibrary2kindle": {
+      "command": "uvx",
+      "args": ["zlibrary2kindle"]
+    }
+  }
+}
+```
+
+### OpenClaw
+
+```json
+// ~/.openclaw/mcp_servers.json
+{
+  "mcpServers": {
+    "zlibrary2kindle": {
+      "command": "uvx",
+      "args": ["zlibrary2kindle"]
+    }
+  }
+}
+```
+
+Then you can ask in natural language:
 
 ```
 帮我下载莫言的书发送到Kindle
 Search for books by Yu Hua and send them to my Kindle
 ```
 
-Claude Code will automatically use the `zlibrary_login`, `zlibrary_search`, `zlibrary_download`, and `kindle_send_email` tools to complete the task.
+The AI will automatically use `zlibrary_login`, `zlibrary_search`, `zlibrary_download`, and `kindle_send_email` tools to complete the task.
 
 ## Architecture
 
@@ -124,10 +167,10 @@ src/
 ## Troubleshooting
 
 **"Session expired" or download fails**
-: Run `python -m src.cli login` again to refresh session cookies.
+: Run `uvx zlibrary2kindle login` again to refresh session cookies.
 
 **Login page changed / Cloudflare challenge**
-: Try `python -m src.cli login --no-headless` to see the browser and solve CAPTCHA manually.
+: Try `uvx zlibrary2kindle login --no-headless` to see the browser and solve CAPTCHA manually.
 
 **Email too large for Kindle**
 : Google/Gmail limits attachments to ~25MB. PDFs often exceed this. Try searching for EPUB format instead.

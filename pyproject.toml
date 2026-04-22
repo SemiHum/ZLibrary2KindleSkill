@@ -1,8 +1,22 @@
 [project]
 name = "zlibrary2kindle"
-version = "0.1.0"
+version = "0.1.1"
 description = "Local MCP to search ZLibrary, download books, and send to Kindle"
+readme = "README.md"
+license = "MIT"
 requires-python = ">=3.11"
+authors = [
+    { name = "SemiHum", email = "semmy.jiang@SemiHum.com" }
+]
+keywords = ["zlibrary", "kindle", "books", "mcp", "claude"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: End Users/Desktop",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
 dependencies = [
     "playwright>=1.40.0",
     "mcp>=1.0.0",
@@ -10,7 +24,6 @@ dependencies = [
     "click>=8.0.0",
     "python-dotenv>=1.0.0",
 ]
-scripts = { zlib2k-cli = "src.cli:main" }
 
 [project.optional-dependencies]
 dev = [
@@ -18,6 +31,15 @@ dev = [
     "ruff>=0.3.0",
     "pyright>=1.1.350",
 ]
+
+[project.scripts]
+z2k = "src.cli:main"
+zlib2k-cli = "src.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/SemiHum/ZLibrary2KindleSkill"
+Repository = "https://github.com/SemiHum/ZLibrary2KindleSkill"
+Issues = "https://github.com/SemiHum/ZLibrary2KindleSkill/issues"
 
 [build-system]
 requires = ["setuptools>=61.0"]

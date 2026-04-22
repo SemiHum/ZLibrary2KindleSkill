@@ -21,8 +21,15 @@
 
 ### 1. 安装
 
+**最简单的方式 — 无需安装：**
 ```bash
-pip install -e .
+uvx zlibrary2kindle --help
+```
+
+**或者本地安装：**
+```bash
+pip install zlibrary2kindle
+z2k --help
 ```
 
 ### 2. 配置凭证
@@ -56,53 +63,89 @@ export SENDER_PASSWORD="xxxx xxxx xxxx xxxx"  # Gmail 应用密码
 
 ```bash
 # 1. 登录（一次即可）
-python -m src.cli login
+uvx zlibrary2kindle login
 
 # 2. 搜索
-python -m src.cli search "莫言"
+uvx zlibrary2kindle search "莫言"
 
 # 3. 下载（从搜索结果复制 book_id）
-python -m src.cli download <book_id>
+uvx zlibrary2kindle download <book_id>
 
 # 4. 发送到 Kindle
-python -m src.cli send /tmp/zlibrary2kindle/downloads/书名.epub "书名"
+uvx zlibrary2kindle send /tmp/zlibrary2kindle/downloads/书名.epub "书名"
+```
+
+本地安装后也可以用：
+```bash
+z2k login
+z2k search "莫言"
+z2k download <book_id>
+z2k send /path/to/book.epub "书名"
 ```
 
 ## CLI 命令参考
 
 | 命令 | 说明 |
 |------|------|
-| `python -m src.cli login` | 登录 ZLibrary，Session 自动保存 |
-| `python -m src.cli search "关键词" --limit 10` | 搜索书籍，返回 `[book_id] 书名 \| 作者` |
-| `python -m src.cli download <book_id>` | 下载书籍到 `/tmp/zlibrary2kindle/downloads/` |
-| `python -m src.cli send <文件路径> "书名"` | 将文件发送到 Kindle |
+| `uvx zlibrary2kindle login` | 登录 ZLibrary，Session 自动保存 |
+| `uvx zlibrary2kindle search "关键词" --limit 10` | 搜索书籍，返回 `[book_id] 书名 \| 作者` |
+| `uvx zlibrary2kindle download <book_id>` | 下载书籍到 `/tmp/zlibrary2kindle/downloads/` |
+| `uvx zlibrary2kindle send <文件路径> "书名"` | 将文件发送到 Kindle |
 
-> **注意**：如果 `zlib2k-cli` 命令找不到，用 `python -m src.cli` 代替。
+## MCP 集成
 
-## Claude Code Skill 模式
+加载为本地 MCP 服务器，让 AI 帮你搜书、下载、发书。支持 Claude Code、Cursor、OpenClaw。
 
-加载为 Claude Code 本地 MCP 服务器，用自然语言让 AI 帮你搜书、下载、发书：
+### Claude Code
 
 ```json
 // mcp.json
 {
   "mcpServers": {
     "zlibrary2kindle": {
-      "command": "python",
-      "args": ["-m", "src.server"]
+      "command": "uvx",
+      "args": ["zlibrary2kindle"]
     }
   }
 }
 ```
 
-然后直接对 Claude 说：
+### Cursor
+
+```json
+// ~/.cursor/mcp.json (全局) 或 .cursor/mcp.json (项目内)
+{
+  "mcpServers": {
+    "zlibrary2kindle": {
+      "command": "uvx",
+      "args": ["zlibrary2kindle"]
+    }
+  }
+}
+```
+
+### OpenClaw
+
+```json
+// ~/.openclaw/mcp_servers.json
+{
+  "mcpServers": {
+    "zlibrary2kindle": {
+      "command": "uvx",
+      "args": ["zlibrary2kindle"]
+    }
+  }
+}
+```
+
+然后直接对 AI 说：
 
 ```
 帮我下载莫言的书发送到Kindle
 Search for books by 余华 and send them to my Kindle
 ```
 
-Claude Code 会自动调用 `zlibrary_login`、`zlibrary_search`、`zlibrary_download`、`kindle_send_email` 四个工具完成任务。
+AI 会自动调用 `zlibrary_login`、`zlibrary_search`、`zlibrary_download`、`kindle_send_email` 四个工具完成任务。
 
 ## 项目结构
 
@@ -124,10 +167,10 @@ src/
 ## 常见问题
 
 **"Session 过期"或下载失败**
-: 运行 `python -m src.cli login` 重新刷新 session cookies。
+: 运行 `uvx zlibrary2kindle login` 重新刷新 session cookies。
 
 **登录页面改了 / Cloudflare 验证**
-: 运行 `python -m src.cli login --no-headless` 打开浏览器手动解决验证码。
+: 运行 `uvx zlibrary2kindle login --no-headless` 打开浏览器手动解决验证码。
 
 **邮件发送失败，文件太大**
 : Google/Gmail 限制附件 ~25MB，PDF 经常超标。尝试搜索 EPUB 版本。

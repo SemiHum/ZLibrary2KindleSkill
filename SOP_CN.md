@@ -45,11 +45,8 @@ brew install python
 打开终端，运行：
 
 ```bash
-# 进入项目目录
-cd /Users/你的用户名/Git/SemiHum/ZLibrary2KindleSkill
-
-# 安装依赖
-pip install -e .
+# 无需安装 — 直接用 uvx 运行
+uvx zlibrary2kindle login
 ```
 
 ---
@@ -86,7 +83,7 @@ source ~/.zshrc
 
 运行：
 ```bash
-python -m src.cli login
+uvx zlibrary2kindle login
 ```
 
 如果看到「Logged in successfully」就成功了！
@@ -98,12 +95,12 @@ python -m src.cli login
 ### 3.1 搜索书籍
 
 ```bash
-python -m src.cli search "书名或作者名"
+uvx zlibrary2kindle search "书名或作者名"
 ```
 
 例如搜索「三国演义」：
 ```bash
-python -m src.cli search "三国演义"
+uvx zlibrary2kindle search "三国演义"
 ```
 
 会看到类似这样的结果：
@@ -117,12 +114,12 @@ python -m src.cli search "三国演义"
 ### 3.2 下载书籍
 
 ```bash
-python -m src.cli download 刚才复制的ID
+uvx zlibrary2kindle download 刚才复制的ID
 ```
 
 例如：
 ```bash
-python -m src.cli download abc123XYZ
+uvx zlibrary2kindle download abc123XYZ
 ```
 
 下载完成后会显示保存路径，类似：
@@ -133,12 +130,12 @@ Downloaded: /tmp/zlibrary2kindle/downloads/三国演义.epub
 ### 3.3 发送到Kindle
 
 ```bash
-python -m src.cli send 下载路径 "书名"
+uvx zlibrary2kindle send 下载路径 "书名"
 ```
 
 例如：
 ```bash
-python -m src.cli send "/tmp/zlibrary2kindle/downloads/三国演义.epub" "三国演义"
+uvx zlibrary2kindle send "/tmp/zlibrary2kindle/downloads/三国演义.epub" "三国演义"
 ```
 
 看到「Sent successfully」就成功了！几分钟后书就会出现在你的Kindle上。
@@ -156,7 +153,7 @@ A: 确保在项目目录下运行，或者用 `python -m src.cli`
 ### Q: 下载失败，提示超时
 A: ZLibrary可能抽风，等几分钟再试。或者试试非headless模式：
 ```bash
-python -m src.cli login --no-headless
+uvx zlibrary2kindle login --no-headless
 ```
 
 ### Q: 邮件发送失败，提示文件太大

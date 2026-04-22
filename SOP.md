@@ -45,11 +45,8 @@ brew install python
 Open Terminal and run:
 
 ```bash
-# Go to the project folder
-cd /Users/yourname/Git/SemiHum/ZLibrary2KindleSkill
-
-# Install dependencies
-pip install -e .
+# No install needed — run directly with uvx
+uvx zlibrary2kindle login
 ```
 
 ---
@@ -86,7 +83,7 @@ source ~/.zshrc
 
 Run:
 ```bash
-python -m src.cli login
+uvx zlibrary2kindle login
 ```
 
 If you see "Logged in successfully" — you're ready!
@@ -98,12 +95,12 @@ If you see "Logged in successfully" — you're ready!
 ### 3.1 Search for Books
 
 ```bash
-python -m src.cli search "book title or author"
+uvx zlibrary2kindle search "book title or author"
 ```
 
 Example — search for "Harry Potter":
 ```bash
-python -m src.cli search "Harry Potter"
+uvx zlibrary2kindle search "Harry Potter"
 ```
 
 You'll see results like:
@@ -117,12 +114,12 @@ The text in brackets `[abc123XYZ]` is the book ID. Copy it.
 ### 3.2 Download the Book
 
 ```bash
-python -m src.cli download 刚才复制的ID
+uvx zlibrary2kindle download 刚才复制的ID
 ```
 
 Example:
 ```bash
-python -m src.cli download abc123XYZ
+uvx zlibrary2kindle download abc123XYZ
 ```
 
 When done, you'll see the saved path:
@@ -133,12 +130,12 @@ Downloaded: /tmp/zlibrary2kindle/downloads/Harry Potter.epub
 ### 3.3 Send to Kindle
 
 ```bash
-python -m src.cli send 下载路径 "书名"
+uvx zlibrary2kindle send 下载路径 "书名"
 ```
 
 Example:
 ```bash
-python -m src.cli send "/tmp/zlibrary2kindle/downloads/Harry Potter.epub" "Harry Potter"
+uvx zlibrary2kindle send "/tmp/zlibrary2kindle/downloads/Harry Potter.epub" "Harry Potter"
 ```
 
 If you see "Sent successfully" — the book will appear on your Kindle in a few minutes!
@@ -156,7 +153,7 @@ A: Make sure you're in the project directory, or use `python -m src.cli`
 ### Q: Download fails with timeout
 A: ZLibrary might be down. Wait a few minutes and try again. Or try non-headless mode:
 ```bash
-python -m src.cli login --no-headless
+uvx zlibrary2kindle login --no-headless
 ```
 
 ### Q: Email fails with "file too large"
